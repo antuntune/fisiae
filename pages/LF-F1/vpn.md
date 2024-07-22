@@ -1,0 +1,63 @@
+---
+dg-publish: true
+---
+
+## Was ist Verschlüsselung? (Encryption)
+
+Um ein VPN zu verstehen, ist es hilfreich, zuerst zu verstehen, was Verschlüsselung (Encryption) ist.
+
+![hello](/how-encryption-works.png)
+
+Verschlüsselung (Encryption) ist wie das Verschließen deiner Nachrichten in einer speziellen Box, die nur du und die Person, an die du die Nachricht sendest, öffnen können. Diese Box verwendet einen einzigartigen Schlüssel, um deine Nachricht in einen Geheimcode umzuwandeln. Wenn jemand anderes versucht, die Box zu öffnen, wird er die Nachricht nicht verstehen können, weil er den Schlüssel nicht hat. Verschlüsselung (Encryption) stellt sicher, dass nur der beabsichtigte Empfänger die ursprüngliche Nachricht lesen kann.
+
+## Was ist ein VPN?
+
+![hello](/a5E60vL_700bwp.png)
+
+Ein VPN, oder Virtual Private Network (virtuelles privates Netzwerk), ist ein Dienst, der einen sicheren und privaten Tunnel für deine Internetverbindung erstellt. So funktioniert es:
+
+1. **Verschlüsselung (Encryption):** Wenn du über ein VPN mit dem Internet verbindest, wird deine Daten verschlüsselt. Das bedeutet, dass deine Daten in einen Geheimcode verwandelt werden, der deine Aktivitäten vor jedem versteckt, der versucht, deine Verbindung auszuspionieren.
+
+2. **Sicherer Tunnel (Secure Tunnel):** Das VPN sendet deine verschlüsselten Daten durch einen sicheren Tunnel zu einem VPN-Server. Dieser Server entschlüsselt deine Daten und leitet sie dann ins Internet weiter. Wenn die Daten zurückkommen, verschlüsselt der VPN-Server sie erneut, bevor sie dir zugeschickt werden.
+
+3. **Privatsphäre (Privacy):** Dieser Prozess versteckt deinen tatsächlichen Standort und deine IP-Adresse, sodass es so aussieht, als ob du das Internet von dem Standort des VPN-Servers aus nutzt.
+
+## Beispiele für die Nutzung eines VPN
+
+1. **Zugriff auf Inhalte überall (Accessing Content Anywhere):**
+
+   ![hello](/eu13.png)
+
+   - **Szenario (Scenario):** Du möchtest ein Streaming-Video ansehen, das nur in einem anderen Land verfügbar ist.
+   - **Wie VPN hilft (How VPN Helps):** Durch die Verbindung mit einem VPN-Server in diesem Land sieht es so aus, als ob du von dort aus surfst. Dadurch kannst du auf die Inhalte zugreifen, als wärst du physisch an diesem Ort.
+
+2. **Verbergen vor deinem ISP und Schutz in öffentlichen WiFi-Netzwerken (Hiding from Your ISP and Protecting in Public WiFi):**
+
+   ![hello](/anon.jpeg)
+
+   - **Szenario (Scenario):** Dein Internetdienstanbieter (ISP) (wie Vodafone oder O2) kann sehen und verfolgen, welche Websites du besuchst. Auch in öffentlichen WiFi-Netzwerken, wie in Cafés oder Flughäfen, könnte jemand, der im selben Netzwerk ist, deine Daten ausspionieren.
+   - **Wie VPN hilft (How VPN Helps):** Ein VPN verschlüsselt deine Daten, sodass dein ISP (wie Vodafone oder O2) nur sehen kann, dass du mit einem VPN-Server verbunden bist, aber nicht die spezifischen Websites oder Inhalte, die du aufrufst. In öffentlichen WiFi-Netzwerken schützt das VPN deine Daten ebenfalls vor neugierigen Augen, da die Verschlüsselung sicherstellt, dass niemand im selben Netzwerk deine Online-Aktivitäten einsehen kann.
+
+3. **Zugriff auf das GFN Remote-Lab (Access to GFN Remote Lab):**
+
+   ![hello](/tunnelGFN.png)
+
+   - **Szenario (Scenario):** Du musst von zu Hause aus auf das Remote-Lab deiner Schule, das GFN Remote-Lab, zugreifen.
+   - **Warum VPN nötig ist (Why VPN is Necessary):** Wenn du dich in der Schule befindest, kannst du direkt auf das GFN Remote-Lab zugreifen, da du innerhalb des Schulnetzwerks bist. Wenn du jedoch außerhalb der Schule bist, ist ein VPN notwendig, um eine sichere, verschlüsselte Verbindung zum Schulnetzwerk herzustellen. Dein PC verhält sich dann so, als ob er sich im Schulnetzwerk befindet, was den Zugang zu Netzwerkressourcen wie dem GFN Remote-Lab ermöglicht.
+
+## OpenVPN und Kommerzielle VPN-Apps
+
+1. **OpenVPN:**
+
+   - **Beschreibung (Description):** OpenVPN ist ein weit verbreitetes, Open-Source-VPN-Protokoll sowie die zugehörige Software, die für ihre Sicherheit und Flexibilität bekannt sind. Das Protokoll definiert die Regeln und Verfahren für die sichere Übertragung von Daten, während die OpenVPN-Software eine Implementierung dieses Protokolls bietet.
+   - **Verwendung (Usage):** In Schulen wird OpenVPN häufig eingesetzt, um sicherzustellen, dass der Zugang zu Netzwerkressourcen wie Remote-Labs sicher und zuverlässig ist. Die Software ermöglicht eine einfache Einrichtung und Verwaltung von VPN-Verbindungen und nutzt das OpenVPN-Protokoll für die sichere Datenübertragung.
+
+2. **Kommerzielle VPN-Apps (Commercial VPN Apps):**
+
+   ![hello](/commvpn.jpg)
+
+   - **Beispiele (Examples):** Surfshark, NordVPN, ExpressVPN.
+   - **Beschreibung (Description):** Diese kommerziellen VPN-Dienste bieten benutzerfreundliche Apps und eine einfache Einrichtung. Sie bieten zusätzliche Funktionen wie Server in vielen Ländern, hohe Geschwindigkeiten und zusätzliche Sicherheitsmerkmale wie Kill-Switches und DNS-Leak-Schutz.
+   - **Verwendung (Usage):** Diese VPNs sind ideal für den privaten Gebrauch und bieten umfassende Anonymität und Zugriff auf Inhalte aus verschiedenen Ländern. Sie sind weniger flexibel als OpenVPN bei speziellen Netzwerkanforderungen, aber sie sind sehr benutzerfreundlich und für den allgemeinen Gebrauch gut geeignet.
+
+Zusammengefasst schützt Verschlüsselung (Encryption) deine Daten, indem sie sie in einen Geheimcode verwandelt, während ein VPN Verschlüsselung verwendet, um deine Internetverbindung zu sichern, deine Privatsphäre zu schützen und den Zugriff auf Ressourcen wie das GFN Remote-Lab von überall aus zu ermöglichen. OpenVPN ist eine spezialisierte Lösung, die oft in Schulen verwendet wird, während kommerzielle VPN-Apps wie Surfshark eine benutzerfreundliche Option für den privaten Gebrauch darstellen.

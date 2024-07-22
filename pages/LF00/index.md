@@ -1,0 +1,10 @@
+---
+dg-publish: true
+---
+
+**Dozent: Gerhard Full**
+
+---
+
+- [[Tag 4 - 11.07.2024]]
+- [[Tag 5 - 12.07.2024]]
