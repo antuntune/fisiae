@@ -1,15 +1,15 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "index": {
+    "title": "Home",
+    "display": "hidden"
+  },
+
+  "daily": {
+    "title": "📋Tägliche Notizen",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+  "einblicke": {
+    "title": "📚Einblicke",
+    "type": "page"
   }
 }

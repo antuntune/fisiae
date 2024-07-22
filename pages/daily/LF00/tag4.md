@@ -20,12 +20,12 @@ dg-publish: true
 - **`cls`**: Löscht den Bildschirm der Eingabeaufforderung.
 - **`exit`**: Beendet die Eingabeaufforderung.
 
-
 ### Praktische Übung
 
 1. **Verzeichnis erstellen und wechseln**
 
    - **Erstellen Sie das Verzeichnis `C:\umschulung`**, falls es noch nicht existiert.
+
      ```cmd
      mkdir C:\umschulung
      ```
@@ -38,26 +38,31 @@ dg-publish: true
 2. **Verzeichnisse und Dateien erstellen, anzeigen und kopieren**
 
    - **Erstellen Sie ein neues Verzeichnis namens `Praxis`** im Verzeichnis `C:\umschulung`.
+
      ```cmd
      mkdir Praxis
      ```
 
    - **Wechseln Sie in das neu erstellte Verzeichnis `Praxis`**.
+
      ```cmd
      cd Praxis
      ```
 
    - **Erstellen Sie eine neue Textdatei namens `beispiel.txt`** in diesem Verzeichnis und fügen Sie etwas Text hinzu.
+
      ```cmd
      echo Dies ist eine Beispieldatei. > beispiel.txt
      ```
 
    - **Zeigen Sie den Inhalt der Datei `beispiel.txt` an**.
+
      ```cmd
      type beispiel.txt
      ```
 
    - **Erstellen Sie ein weiteres Verzeichnis namens `Backup`** im Verzeichnis `C:\umschulung`.
+
      ```cmd
      cd C:\umschulung
      mkdir Backup
@@ -71,17 +76,20 @@ dg-publish: true
 3. **Datei löschen und Verzeichnisse entfernen**
 
    - **Löschen Sie die Datei `beispiel.txt` im Verzeichnis `Praxis`**.
+
      ```cmd
      cd Praxis
      del beispiel.txt
      ```
 
    - **Wechseln Sie zurück zum Verzeichnis `C:\umschulung`**.
+
      ```cmd
      cd C:\umschulung
      ```
 
    - **Entfernen Sie das leere Verzeichnis `Praxis`**.
+
      ```cmd
      rmdir Praxis
      ```
@@ -94,6 +102,7 @@ dg-publish: true
 4. **Bildschirm löschen und CMD beenden**
 
    - **Löschen Sie den Bildschirm der Eingabeaufforderung**.
+
      ```cmd
      cls
      ```
@@ -103,33 +112,41 @@ dg-publish: true
      exit
      ```
 
-
 ## Nutzung des Remote Labs in unserem Klassenzimmer
 
 ### Schritt 1: Verbindung zum VPN herstellen (wenn Sie sich nicht in der Schule befinden)
+
 Wenn Sie sich nicht auf dem Schulgelände befinden, müssen Sie zuerst eine Verbindung zum VPN herstellen, um auf das Remote Lab zugreifen zu können. Weitere Informationen darüber, was ein VPN ist, finden Sie in [[VPN Einfach Erklärt]]. Anweisungen zum Herstellen einer Verbindung zu unserem Schul-VPN finden Sie auf der [Lernplattform](https://lernplattform.gfn.de/).
 
 ### Schritt 2: Verbindung zum Remote Lab über den Windows-Remote-Desktop herstellen
+
 1. **Verbindungsinformationen abrufen:**
+
    - Gehen Sie zur [Lernplattform](https://lernplattform.gfn.de/) und finden Sie dort die Verbindungsdetails zum Remote Lab. Dies umfasst in der Regel die IP-Adresse oder den Hostnamen des Remote Lab Computers sowie Ihre Anmeldedaten.
 
 2. **Windows-Remote-Desktop öffnen:**
+
    - Öffnen Sie auf Ihrem Computer die Windows-Remote-Desktop-Anwendung. Sie finden diese, indem Sie im Startmenü nach "Remote Desktop" suchen.
 
 3. **Verbindungsdetails eingeben:**
+
    - Geben Sie in der Remote-Desktop-Anwendung die IP-Adresse oder den Hostnamen des Remote Lab Computers in das Feld "Computer" ein.
 
 4. **Verbindung zum Remote Lab herstellen:**
+
    - Klicken Sie auf "Verbinden". Möglicherweise werden Sie aufgefordert, Ihren Benutzernamen und Ihr Passwort einzugeben. Verwenden Sie die auf der Lernplattform bereitgestellten Anmeldedaten.
 
 5. **Zertifikat akzeptieren:**
+
    - Wenn Sie eine Warnung bezüglich des Zertifikats des Remote-Computers sehen, können Sie fortfahren, indem Sie auf "Ja" oder "Weiter" klicken.
 
 6. **Zugriff auf das Remote Lab:**
    - Sobald die Verbindung hergestellt ist, sollten Sie den Desktop des Remote Lab Computers sehen. Sie können das Remote Lab jetzt nutzen, als wären Sie physisch im Klassenzimmer anwesend.
 
 ### Tipps zur Fehlerbehebung
+
 - **VPN-Verbindungsprobleme:**
+
   - Stellen Sie sicher, dass Sie den VPN-Leitfaden korrekt befolgt haben. Wenn die Verbindung fehlschlägt, starten Sie Ihren Computer neu und stellen Sie die Verbindung zum VPN erneut her.
 
 - **Remote-Desktop-Verbindungsprobleme:**
@@ -138,14 +155,12 @@ Wenn Sie sich nicht auf dem Schulgelände befinden, müssen Sie zuerst eine Verb
   - Wenn die Probleme weiterhin bestehen, wenden Sie sich an das IT-Support-Team.
 
 ### Zusätzliche Ressourcen
+
 - [[VPN Einfach Erklärt]]
 - [Lernplattform](https://lernplattform.gfn.de/)
-
-
 
 ## 3. Einführung in Hyper-V
 
 ![[coming-soon.gif]]
-
 
 <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgdyHyejVYRp_2BZCuILQM1sjldCNabibibZ6sxAygO9aV7s.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;" href=www.surveymonkey.com> Create your own user feedback survey </a>
