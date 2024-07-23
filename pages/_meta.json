@@ -6,7 +6,17 @@
 
   "daily": {
     "title": "📋Tägliche Notizen",
-    "type": "page"
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "LF00",
+        "href": "/daily/LF00"
+      },
+      "contact": {
+        "title": "LF-F1",
+        "href": "/daily/LF-F1"
+      }
+    }
   },
   "einblicke": {
     "title": "📚Einblicke",

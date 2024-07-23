@@ -1,7 +1,3 @@
----
-dg-publish: true
----
-
 **Dozent: Hoang Nguyen**
 
 ---
@@ -116,7 +112,7 @@ dg-publish: true
 
 ### Schritt 1: Verbindung zum VPN herstellen (wenn Sie sich nicht in der Schule befinden)
 
-Wenn Sie sich nicht auf dem Schulgelände befinden, müssen Sie zuerst eine Verbindung zum VPN herstellen, um auf das Remote Lab zugreifen zu können. Weitere Informationen darüber, was ein VPN ist, finden Sie in [[VPN Einfach Erklärt]]. Anweisungen zum Herstellen einer Verbindung zu unserem Schul-VPN finden Sie auf der [Lernplattform](https://lernplattform.gfn.de/).
+Wenn Sie sich nicht auf dem Schulgelände befinden, müssen Sie zuerst eine Verbindung zum VPN herstellen, um auf das Remote Lab zugreifen zu können. Weitere Informationen darüber, was ein VPN ist, finden Sie in [VPN Einfach erklärt](../../einblicke/vpn) . Anweisungen zum Herstellen einer Verbindung zu unserem Schul-VPN finden Sie auf der [Lernplattform](https://lernplattform.gfn.de/).
 
 ### Schritt 2: Verbindung zum Remote Lab über den Windows-Remote-Desktop herstellen
 
