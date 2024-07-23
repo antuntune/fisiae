@@ -4,33 +4,33 @@ dg-publish: true
 
 #### Translations
 
-| English           | German           |
-|-------------------|------------------|
-| essential         | wesentlich       |
-| fundamental       | grundlegend      |
-| firmware          | Firmware         |
-| low-level         | niedriges Niveau |
-| embedded          | eingebettet      |
-| system-critical   | systemkritisch   |
-| pre-boot          | vor dem Booten   |
-| configurable      | konfigurierbar   |
-| bootable          | bootfähig        |
-| integral          | integral         |
+| English           | German             |
+| ----------------- | ------------------ |
+| essential         | wesentlich         |
+| fundamental       | grundlegend        |
+| firmware          | Firmware           |
+| low-level         | niedriges Niveau   |
+| embedded          | eingebettet        |
+| system-critical   | systemkritisch     |
+| pre-boot          | vor dem Booten     |
+| configurable      | konfigurierbar     |
+| bootable          | bootfähig          |
+| integral          | integral           |
 | hardware-specific | hardwarespezifisch |
-| robust            | robust           |
-| versatile         | vielseitig       |
-| accessible        | zugänglich       |
-| customizable      | anpassbar        |
-| secure            | sicher           |
-| standardized      | standardisiert   |
+| robust            | robust             |
+| versatile         | vielseitig         |
+| accessible        | zugänglich         |
+| customizable      | anpassbar          |
+| secure            | sicher             |
+| standardized      | standardisiert     |
 | user-friendly     | benutzerfreundlich |
-| upgradable        | aufrüstbar       |
-| dependable        | zuverlässig      |
+| upgradable        | aufrüstbar         |
+| dependable        | zuverlässig        |
 
 #### Using words in sentence
 
 1. **Essential**: It is essential to update your computer to keep it safe.
-2. **Fundamental**: Learning how to code is fundamental for anyone wanting to work in tech. 
+2. **Fundamental**: Learning how to code is fundamental for anyone wanting to work in tech.
 3. **Firmware**: The firmware update fixed many bugs in the device.
 4. **Low-level**: Low-level programming lets you control the hardware directly.
 5. **Embedded**: Many modern gadgets use embedded systems to function.
@@ -49,7 +49,6 @@ dg-publish: true
 18. **User-friendly**: The new software is very user-friendly and easy to navigate.
 19. **Upgradable**: The computer is upgradable, allowing you to add more memory or storage later.
 20. **Dependable**: Our servers are very dependable and have almost no downtime.
-
 
 #### E-mail
 
@@ -71,5 +70,3 @@ Best regards,
 
 Sophia, Qunlei, and Ante  
 SQA Corporation
-
-![[SQA-logo.png|350]]

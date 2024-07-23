@@ -5,7 +5,7 @@
   },
 
   "daily": {
-    "title": "📋Tägliche Notizen",
+    "title": "📅Tägliche Notizen",
     "type": "menu",
     "items": {
       "about": {
@@ -19,7 +19,7 @@
     }
   },
   "einblicke": {
-    "title": "📚Einblicke",
+    "title": "📝Einblicke",
     "type": "page"
   }
 }

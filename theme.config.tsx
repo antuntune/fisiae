@@ -2,7 +2,12 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>💻FISIAE</span>,
+  logo: (
+    <>
+      <img src="computer.png" width="40" alt="" />
+      <span style={{ paddingLeft: "0.6rem" }}>FISIAE</span>
+    </>
+  ),
   // project: {
   //   link: "https://github.com/shuding/nextra-docs-template",
   // },
@@ -26,6 +31,7 @@ const config: DocsThemeConfig = {
   search: {
     placeholder: "Notizen durchsuchen...",
   },
+  primaryHue: 34,
 };
 
 export default config;
