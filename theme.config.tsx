@@ -1,10 +1,11 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import Image from "next/image";
 
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="computer.png" width="40" alt="" />
+      <Image src="/computer.png" alt="Hello" width={40} height={40} />
       <span style={{ paddingLeft: "0.6rem" }}>FISIAE</span>
     </>
   ),
