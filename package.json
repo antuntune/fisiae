@@ -27,7 +27,8 @@
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-quiz-component": "^0.8.2"
+    "react-quiz-component": "^0.8.2",
+    "react-quizlet-flashcard": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
