@@ -1,502 +1,1352 @@
 export const cards = [
   {
     id: 1,
-    frontHTML: <>What is the German word for Application?</>,
-    backHTML: <>Anwendung</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Application
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Anwendung
+      </>
+    ),
   },
   {
     id: 2,
-    frontHTML: <>What is the German word for Backup?</>,
-    backHTML: <>Sicherung</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Backup
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Sicherung
+      </>
+    ),
   },
   {
     id: 3,
-    frontHTML: <>What is the German word for Browser?</>,
-    backHTML: <>Browser</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Cable
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Kabel
+      </>
+    ),
   },
   {
     id: 4,
-    frontHTML: <>What is the German word for Cable?</>,
-    backHTML: <>Kabel</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Cloud
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Wolke
+      </>
+    ),
   },
   {
     id: 5,
-    frontHTML: <>What is the German word for Cloud?</>,
-    backHTML: <>Wolke</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Command
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Befehl
+      </>
+    ),
   },
   {
     id: 6,
-    frontHTML: <>What is the German word for Command?</>,
-    backHTML: <>Befehl</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Configuration
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Konfiguration
+      </>
+    ),
   },
   {
     id: 7,
-    frontHTML: <>What is the German word for Configuration?</>,
-    backHTML: <>Konfiguration</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Data
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Daten
+      </>
+    ),
   },
   {
     id: 8,
-    frontHTML: <>What is the German word for Data?</>,
-    backHTML: <>Daten</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Debug
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Fehlersuche
+      </>
+    ),
   },
   {
     id: 9,
-    frontHTML: <>What is the German word for Debug?</>,
-    backHTML: <>Fehlersuche</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Desktop
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Schreibtisch
+      </>
+    ),
   },
   {
     id: 10,
-    frontHTML: <>What is the German word for Desktop?</>,
-    backHTML: <>Schreibtisch</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Device
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Gerät
+      </>
+    ),
   },
   {
     id: 11,
-    frontHTML: <>What is the German word for Device?</>,
-    backHTML: <>Gerät</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Disk
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Festplatte
+      </>
+    ),
   },
   {
     id: 12,
-    frontHTML: <>What is the German word for Disk?</>,
-    backHTML: <>Festplatte</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Download
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Herunterladen
+      </>
+    ),
   },
   {
     id: 13,
-    frontHTML: <>What is the German word for Download?</>,
-    backHTML: <>Herunterladen</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Encryption
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Verschlüsselung
+      </>
+    ),
   },
   {
     id: 14,
-    frontHTML: <>What is the German word for Encryption?</>,
-    backHTML: <>Verschlüsselung</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Firewall
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Firewall
+      </>
+    ),
   },
   {
     id: 15,
-    frontHTML: <>What is the German word for Firewall?</>,
-    backHTML: <>Firewall</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Folder
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Ordner
+      </>
+    ),
   },
   {
     id: 16,
-    frontHTML: <>What is the German word for Folder?</>,
-    backHTML: <>Ordner</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Framework
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Rahmenwerk
+      </>
+    ),
   },
   {
     id: 17,
-    frontHTML: <>What is the German word for Framework?</>,
-    backHTML: <>Rahmenwerk</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Gateway
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Gateway
+      </>
+    ),
   },
   {
     id: 18,
-    frontHTML: <>What is the German word for Gateway?</>,
-    backHTML: <>Gateway</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Hard Drive
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Festplatte
+      </>
+    ),
   },
   {
     id: 19,
-    frontHTML: <>What is the German word for Hard Drive?</>,
-    backHTML: <>Festplatte</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Hardware
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Hardware
+      </>
+    ),
   },
   {
     id: 20,
-    frontHTML: <>What is the German word for Hardware?</>,
-    backHTML: <>Hardware</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Hotspot
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Hotspot
+      </>
+    ),
   },
   {
     id: 21,
-    frontHTML: <>What is the German word for Host?</>,
-    backHTML: <>Host</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Input
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Eingabe
+      </>
+    ),
   },
   {
     id: 22,
-    frontHTML: <>What is the German word for Interface?</>,
-    backHTML: <>Schnittstelle</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Interface
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Schnittstelle
+      </>
+    ),
   },
   {
     id: 23,
-    frontHTML: <>What is the German word for Keyboard?</>,
-    backHTML: <>Tastatur</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Kernel
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Kernel
+      </>
+    ),
   },
   {
     id: 24,
-    frontHTML: <>What is the German word for Key?</>,
-    backHTML: <>Schlüssel</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Keyboard
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Tastatur
+      </>
+    ),
   },
   {
     id: 25,
-    frontHTML: <>What is the German word for Laptop?</>,
-    backHTML: <>Laptop</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Library
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Bibliothek
+      </>
+    ),
   },
   {
     id: 26,
-    frontHTML: <>What is the German word for Link?</>,
-    backHTML: <>Verbindung</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Memory
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Speicher
+      </>
+    ),
   },
   {
     id: 27,
-    frontHTML: <>What is the German word for Memory?</>,
-    backHTML: <>Speicher</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Mouse
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Maus
+      </>
+    ),
   },
   {
     id: 28,
-    frontHTML: <>What is the German word for Monitor?</>,
-    backHTML: <>Bildschirm</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Network
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Netzwerk
+      </>
+    ),
   },
   {
     id: 29,
-    frontHTML: <>What is the German word for Network?</>,
-    backHTML: <>Netzwerk</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Output
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Ausgabe
+      </>
+    ),
   },
   {
     id: 30,
-    frontHTML: <>What is the German word for Node?</>,
-    backHTML: <>Knoten</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Password
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Passwort
+      </>
+    ),
   },
   {
     id: 31,
-    frontHTML: <>What is the German word for Operating System?</>,
-    backHTML: <>Betriebssystem</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Processor
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Prozessor
+      </>
+    ),
   },
   {
     id: 32,
-    frontHTML: <>What is the German word for Password?</>,
-    backHTML: <>Passwort</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Protocol
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Protokoll
+      </>
+    ),
   },
   {
     id: 33,
-    frontHTML: <>What is the German word for Processor?</>,
-    backHTML: <>Prozessor</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router
+      </>
+    ),
   },
   {
     id: 34,
-    frontHTML: <>What is the German word for Protocol?</>,
-    backHTML: <>Protokoll</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Server
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Server
+      </>
+    ),
   },
   {
     id: 35,
-    frontHTML: <>What is the German word for Queue?</>,
-    backHTML: <>Warteschlange</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Software
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Software
+      </>
+    ),
   },
   {
     id: 36,
-    frontHTML: <>What is the German word for Router?</>,
-    backHTML: <>Router</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Storage
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Speicher
+      </>
+    ),
   },
   {
     id: 37,
-    frontHTML: <>What is the German word for Security?</>,
-    backHTML: <>Sicherheit</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        System
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        System
+      </>
+    ),
   },
   {
     id: 38,
-    frontHTML: <>What is the German word for Server?</>,
-    backHTML: <>Server</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Terminal
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Terminal
+      </>
+    ),
   },
   {
     id: 39,
-    frontHTML: <>What is the German word for Software?</>,
-    backHTML: <>Software</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Update
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Aktualisierung
+      </>
+    ),
   },
   {
     id: 40,
-    frontHTML: <>What is the German word for Source Code?</>,
-    backHTML: <>Quellcode</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Upload
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Hochladen
+      </>
+    ),
   },
   {
     id: 41,
-    frontHTML: <>What is the German word for Storage?</>,
-    backHTML: <>Speicher</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        User
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Benutzer
+      </>
+    ),
   },
   {
     id: 42,
-    frontHTML: <>What is the German word for Switch?</>,
-    backHTML: <>Schalter</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Virus
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Virus
+      </>
+    ),
   },
   {
     id: 43,
-    frontHTML: <>What is the German word for Terminal?</>,
-    backHTML: <>Terminal</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Virtual Machine
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Virtuelle Maschine
+      </>
+    ),
   },
   {
     id: 44,
-    frontHTML: <>What is the German word for Transfer?</>,
-    backHTML: <>Übertragung</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Wi-Fi
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        WLAN
+      </>
+    ),
   },
   {
     id: 45,
-    frontHTML: <>What is the German word for Update?</>,
-    backHTML: <>Aktualisierung</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Website
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Webseite
+      </>
+    ),
   },
   {
     id: 46,
-    frontHTML: <>What is the German word for Upgrade?</>,
-    backHTML: <>Aufrüstung</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Binary
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Binär
+      </>
+    ),
   },
   {
     id: 47,
-    frontHTML: <>What is the German word for Upload?</>,
-    backHTML: <>Hochladen</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Cache
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Zwischenspeicher
+      </>
+    ),
   },
   {
     id: 48,
-    frontHTML: <>What is the German word for User?</>,
-    backHTML: <>Benutzer</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Compiling
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Kompilieren
+      </>
+    ),
   },
   {
     id: 49,
-    frontHTML: <>What is the German word for Username?</>,
-    backHTML: <>Benutzername</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Emulation
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Emulation
+      </>
+    ),
   },
   {
     id: 50,
-    frontHTML: <>What is the German word for Utility?</>,
-    backHTML: <>Dienstprogramm</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Firmware
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Firmware
+      </>
+    ),
   },
   {
     id: 51,
-    frontHTML: <>What is the German word for Virtual?</>,
-    backHTML: <>Virtuell</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Host
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Host
+      </>
+    ),
   },
   {
     id: 52,
-    frontHTML: <>What is the German word for Virus?</>,
-    backHTML: <>Virus</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        IP Address
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        IP-Adresse
+      </>
+    ),
   },
   {
     id: 53,
-    frontHTML: <>What is the German word for Web?</>,
-    backHTML: <>Web</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Javascript
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Javascript
+      </>
+    ),
   },
   {
     id: 54,
-    frontHTML: <>What is the German word for Website?</>,
-    backHTML: <>Webseite</>,
-  },
-  {
-    id: 55,
-    frontHTML: <>What is the German word for Wireless?</>,
-    backHTML: <>Drahtlos</>,
-  },
-  {
-    id: 56,
-    frontHTML: <>What is the German word for Algorithm?</>,
-    backHTML: <>Algorithmus</>,
-  },
-  {
-    id: 57,
-    frontHTML: <>What is the German word for Bandwidth?</>,
-    backHTML: <>Bandbreite</>,
-  },
-  {
-    id: 58,
-    frontHTML: <>What is the German word for Bug?</>,
-    backHTML: <>Fehler</>,
-  },
-  {
-    id: 59,
-    frontHTML: <>What is the German word for Cache?</>,
-    backHTML: <>Zwischenspeicher</>,
-  },
-  {
-    id: 60,
-    frontHTML: <>What is the German word for Cipher?</>,
-    backHTML: <>Chiffre</>,
-  },
-  {
-    id: 61,
-    frontHTML: <>What is the German word for Client?</>,
-    backHTML: <>Client</>,
-  },
-  {
-    id: 62,
-    frontHTML: <>What is the German word for Compiler?</>,
-    backHTML: <>Compiler</>,
-  },
-  {
-    id: 63,
-    frontHTML: <>What is the German word for Cookie?</>,
-    backHTML: <>Cookie</>,
-  },
-  {
-    id: 64,
-    frontHTML: <>What is the German word for Crash?</>,
-    backHTML: <>Absturz</>,
-  },
-  {
-    id: 65,
-    frontHTML: <>What is the German word for Cyber?</>,
-    backHTML: <>Cyber</>,
-  },
-  {
-    id: 66,
-    frontHTML: <>What is the German word for Dashboard?</>,
-    backHTML: <>Armaturenbrett</>,
-  },
-  {
-    id: 67,
-    frontHTML: <>What is the German word for Digital?</>,
-    backHTML: <>Digital</>,
-  },
-  {
-    id: 68,
-    frontHTML: <>What is the German word for Domain?</>,
-    backHTML: <>Domain</>,
-  },
-  {
-    id: 69,
-    frontHTML: <>What is the German word for Emulation?</>,
-    backHTML: <>Emulation</>,
-  },
-  {
-    id: 70,
-    frontHTML: <>What is the German word for Firmware?</>,
-    backHTML: <>Firmware</>,
-  },
-  {
-    id: 71,
-    frontHTML: <>What is the German word for Graphics?</>,
-    backHTML: <>Grafik</>,
-  },
-  {
-    id: 72,
-    frontHTML: <>What is the German word for Hyperlink?</>,
-    backHTML: <>Hyperlink</>,
-  },
-  {
-    id: 73,
-    frontHTML: <>What is the German word for Internet?</>,
-    backHTML: <>Internet</>,
-  },
-  {
-    id: 74,
-    frontHTML: <>What is the German word for Log?</>,
-    backHTML: <>Protokoll</>,
-  },
-  {
-    id: 75,
-    frontHTML: <>What is the German word for Malware?</>,
-    backHTML: <>Schadsoftware</>,
-  },
-  {
-    id: 76,
-    frontHTML: <>What is the German word for Middleware?</>,
-    backHTML: <>Middleware</>,
-  },
-  {
-    id: 77,
-    frontHTML: <>What is the German word for Modem?</>,
-    backHTML: <>Modem</>,
-  },
-  {
-    id: 78,
-    frontHTML: <>What is the German word for Module?</>,
-    backHTML: <>Modul</>,
-  },
-  {
-    id: 79,
-    frontHTML: <>What is the German word for Network?</>,
-    backHTML: <>Netzwerk</>,
-  },
-  {
-    id: 80,
-    frontHTML: <>What is the German word for Packet?</>,
-    backHTML: <>Paket</>,
-  },
-  {
-    id: 81,
-    frontHTML: <>What is the German word for Patch?</>,
-    backHTML: <>Patch</>,
-  },
-  {
-    id: 82,
-    frontHTML: <>What is the German word for Pixel?</>,
-    backHTML: <>Pixel</>,
-  },
-  {
-    id: 83,
-    frontHTML: <>What is the German word for Plugin?</>,
-    backHTML: <>Plugin</>,
-  },
-  {
-    id: 84,
-    frontHTML: <>What is the German word for Port?</>,
-    backHTML: <>Port</>,
-  },
-  {
-    id: 85,
-    frontHTML: <>What is the German word for Proxy?</>,
-    backHTML: <>Proxy</>,
-  },
-  {
-    id: 86,
-    frontHTML: <>What is the German word for Runtime?</>,
-    backHTML: <>Laufzeit</>,
-  },
-  {
-    id: 87,
-    frontHTML: <>What is the German word for Sandbox?</>,
-    backHTML: <>Sandbox</>,
-  },
-  {
-    id: 88,
-    frontHTML: <>What is the German word for Script?</>,
-    backHTML: <>Skript</>,
-  },
-  {
-    id: 89,
-    frontHTML: <>What is the German word for Search Engine?</>,
-    backHTML: <>Suchmaschine</>,
-  },
-  {
-    id: 90,
-    frontHTML: <>What is the German word for Session?</>,
-    backHTML: <>Sitzung</>,
-  },
-  {
-    id: 91,
-    frontHTML: <>What is the German word for Shell?</>,
-    backHTML: <>Shell</>,
-  },
-  {
-    id: 92,
-    frontHTML: <>What is the German word for Spreadsheet?</>,
-    backHTML: <>Tabellenkalkulation</>,
-  },
-  {
-    id: 93,
-    frontHTML: <>What is the German word for Subnet?</>,
-    backHTML: <>Subnetz</>,
-  },
-  {
-    id: 94,
-    frontHTML: <>What is the German word for Syntax?</>,
-    backHTML: <>Syntax</>,
-  },
-  {
-    id: 95,
-    frontHTML: <>What is the German word for Terminal?</>,
-    backHTML: <>Terminal</>,
-  },
-  {
-    id: 96,
-    frontHTML: <>What is the German word for Traffic?</>,
-    backHTML: <>Verkehr</>,
-  },
-  {
-    id: 97,
-    frontHTML: <>What is the German word for Trojan?</>,
-    backHTML: <>Trojaner</>,
-  },
-  {
-    id: 98,
-    frontHTML: <>What is the German word for Upload?</>,
-    backHTML: <>Hochladen</>,
-  },
-  {
-    id: 99,
-    frontHTML: <>What is the German word for URL?</>,
-    backHTML: <>URL</>,
-  },
-  {
-    id: 100,
-    frontHTML: <>What is the German word for Utility?</>,
-    backHTML: <>Dienstprogramm</>,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Kernel
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Kernel
+      </>
+    ),
   },
 ];
