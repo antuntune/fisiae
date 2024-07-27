@@ -30,6 +30,7 @@ const config: DocsThemeConfig = {
   editLink: {
     component: null,
   },
+  gitTimestamp: null,
   search: {
     placeholder: "Notizen durchsuchen...",
   },
