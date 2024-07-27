@@ -21,5 +21,9 @@
   "einblicke": {
     "title": "📝Einblicke",
     "type": "page"
+  },
+  "karteikarten": {
+    "title": "🃏Karteikarten",
+    "type": "page"
   }
 }

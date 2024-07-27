@@ -1,0 +1,23 @@
+import { FlashcardArray } from "react-quizlet-flashcard";
+import { cards } from "../../karteikarten/english.js";
+import {
+  flashStyleContentFront,
+  flashStyleContentBack,
+  flashStyleCardFront,
+  flashStyleCardBack,
+} from "../../karteikarten/style.ts";
+
+## Englischer Wortschatz
+
+---
+
+<div>
+  <FlashcardArray
+    cards={cards}
+    cycle={true}
+    frontContentStyle={flashStyleContentFront}
+    backContentStyle={flashStyleContentBack}
+    frontCardStyle={flashStyleCardFront}
+    backCardStyle={flashStyleCardBack}
+  />
+</div>

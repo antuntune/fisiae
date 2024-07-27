@@ -1,4 +1,5 @@
 export const cards = [
+  // 1. Firewall
   {
     id: 1,
     frontHTML: (
@@ -9,7 +10,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Application
+        Firewall
       </>
     ),
     backHTML: (
@@ -20,10 +21,12 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Anwendung
+        Firewall
       </>
     ),
   },
+
+  // 2. Router
   {
     id: 2,
     frontHTML: (
@@ -34,7 +37,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Backup
+        Router
       </>
     ),
     backHTML: (
@@ -45,10 +48,12 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Sicherung
+        Router
       </>
     ),
   },
+
+  // 3. Bandwidth
   {
     id: 3,
     frontHTML: (
@@ -59,7 +64,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Cable
+        Bandwidth
       </>
     ),
     backHTML: (
@@ -70,612 +75,14 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Kabel
+        Bandbreite
       </>
     ),
   },
+
+  // 4. Network
   {
     id: 4,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Cloud
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Wolke
-      </>
-    ),
-  },
-  {
-    id: 5,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Command
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Befehl
-      </>
-    ),
-  },
-  {
-    id: 6,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Configuration
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Konfiguration
-      </>
-    ),
-  },
-  {
-    id: 7,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Data
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Daten
-      </>
-    ),
-  },
-  {
-    id: 8,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Debug
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Fehlersuche
-      </>
-    ),
-  },
-  {
-    id: 9,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Desktop
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Schreibtisch
-      </>
-    ),
-  },
-  {
-    id: 10,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Device
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Gerät
-      </>
-    ),
-  },
-  {
-    id: 11,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Disk
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Festplatte
-      </>
-    ),
-  },
-  {
-    id: 12,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Download
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Herunterladen
-      </>
-    ),
-  },
-  {
-    id: 13,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Encryption
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Verschlüsselung
-      </>
-    ),
-  },
-  {
-    id: 14,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Firewall
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Firewall
-      </>
-    ),
-  },
-  {
-    id: 15,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Folder
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Ordner
-      </>
-    ),
-  },
-  {
-    id: 16,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Framework
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Rahmenwerk
-      </>
-    ),
-  },
-  {
-    id: 17,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Gateway
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Gateway
-      </>
-    ),
-  },
-  {
-    id: 18,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Hard Drive
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Festplatte
-      </>
-    ),
-  },
-  {
-    id: 19,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Hardware
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Hardware
-      </>
-    ),
-  },
-  {
-    id: 20,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Hotspot
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Hotspot
-      </>
-    ),
-  },
-  {
-    id: 21,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Input
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Eingabe
-      </>
-    ),
-  },
-  {
-    id: 22,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Interface
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Schnittstelle
-      </>
-    ),
-  },
-  {
-    id: 23,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Kernel
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Kernel
-      </>
-    ),
-  },
-  {
-    id: 24,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Keyboard
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Tastatur
-      </>
-    ),
-  },
-  {
-    id: 25,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Library
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Bibliothek
-      </>
-    ),
-  },
-  {
-    id: 26,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Memory
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Speicher
-      </>
-    ),
-  },
-  {
-    id: 27,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Mouse
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Maus
-      </>
-    ),
-  },
-  {
-    id: 28,
     frontHTML: (
       <>
         <img
@@ -699,133 +106,10 @@ export const cards = [
       </>
     ),
   },
+
+  // 5. Server
   {
-    id: 29,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Output
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Ausgabe
-      </>
-    ),
-  },
-  {
-    id: 30,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Password
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Passwort
-      </>
-    ),
-  },
-  {
-    id: 31,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Processor
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Prozessor
-      </>
-    ),
-  },
-  {
-    id: 32,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Protocol
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Protokoll
-      </>
-    ),
-  },
-  {
-    id: 33,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Router
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Router
-      </>
-    ),
-  },
-  {
-    id: 34,
+    id: 5,
     frontHTML: (
       <>
         <img
@@ -849,8 +133,10 @@ export const cards = [
       </>
     ),
   },
+
+  // 6. Encryption
   {
-    id: 35,
+    id: 6,
     frontHTML: (
       <>
         <img
@@ -859,7 +145,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Software
+        Encryption
       </>
     ),
     backHTML: (
@@ -870,12 +156,14 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Software
+        Verschlüsselung
       </>
     ),
   },
+
+  // 7. Malware
   {
-    id: 36,
+    id: 7,
     frontHTML: (
       <>
         <img
@@ -884,7 +172,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Storage
+        Malware
       </>
     ),
     backHTML: (
@@ -895,12 +183,14 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Speicher
+        Schadsoftware
       </>
     ),
   },
+
+  // 8. Debugging
   {
-    id: 37,
+    id: 8,
     frontHTML: (
       <>
         <img
@@ -909,7 +199,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        System
+        Debugging
       </>
     ),
     backHTML: (
@@ -920,312 +210,14 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        System
+        Fehlersuche
       </>
     ),
   },
+
+  // 9. Firmware
   {
-    id: 38,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Terminal
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Terminal
-      </>
-    ),
-  },
-  {
-    id: 39,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Update
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Aktualisierung
-      </>
-    ),
-  },
-  {
-    id: 40,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Upload
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Hochladen
-      </>
-    ),
-  },
-  {
-    id: 41,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        User
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Benutzer
-      </>
-    ),
-  },
-  {
-    id: 42,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Virus
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Virus
-      </>
-    ),
-  },
-  {
-    id: 43,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Virtual Machine
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Virtuelle Maschine
-      </>
-    ),
-  },
-  {
-    id: 44,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Wi-Fi
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        WLAN
-      </>
-    ),
-  },
-  {
-    id: 45,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Website
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Webseite
-      </>
-    ),
-  },
-  {
-    id: 46,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Binary
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Binär
-      </>
-    ),
-  },
-  {
-    id: 47,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Cache
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Zwischenspeicher
-      </>
-    ),
-  },
-  {
-    id: 48,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Compiling
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Kompilieren
-      </>
-    ),
-  },
-  {
-    id: 49,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Emulation
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Emulation
-      </>
-    ),
-  },
-  {
-    id: 50,
+    id: 9,
     frontHTML: (
       <>
         <img
@@ -1249,33 +241,10 @@ export const cards = [
       </>
     ),
   },
+
+  // 10. IP Address
   {
-    id: 51,
-    frontHTML: (
-      <>
-        <img
-          src="/uk.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Host
-      </>
-    ),
-    backHTML: (
-      <>
-        <img
-          src="/german.png"
-          width={40}
-          style={{ margin: "auto", paddingBottom: "25px" }}
-          alt=""
-        />
-        Host
-      </>
-    ),
-  },
-  {
-    id: 52,
+    id: 10,
     frontHTML: (
       <>
         <img
@@ -1299,8 +268,10 @@ export const cards = [
       </>
     ),
   },
+
+  // 11. Protocol
   {
-    id: 53,
+    id: 11,
     frontHTML: (
       <>
         <img
@@ -1309,7 +280,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Javascript
+        Protocol
       </>
     ),
     backHTML: (
@@ -1320,12 +291,14 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Javascript
+        Protokoll
       </>
     ),
   },
+
+  // 12. Wireless
   {
-    id: 54,
+    id: 12,
     frontHTML: (
       <>
         <img
@@ -1334,7 +307,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Kernel
+        Wireless
       </>
     ),
     backHTML: (
@@ -1345,7 +318,1033 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Kernel
+        Drahtlos
+      </>
+    ),
+  },
+
+  // 13. Cache
+  {
+    id: 13,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Cache
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Cache
+      </>
+    ),
+  },
+
+  // 14. Backup
+  {
+    id: 14,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Backup
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Backup
+      </>
+    ),
+  },
+
+  // 15. Debug Mode
+  {
+    id: 15,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Debug Mode
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Debug-Modus
+      </>
+    ),
+  },
+
+  // 16. Internet
+  {
+    id: 16,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Internet
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Internet
+      </>
+    ),
+  },
+
+  // 17. Router
+  {
+    id: 17,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router
+      </>
+    ),
+  },
+
+  // 18. Modem
+  {
+    id: 18,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Modem
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Modem
+      </>
+    ),
+  },
+
+  // 19. Switch
+  {
+    id: 19,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Switch
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Switch
+      </>
+    ),
+  },
+
+  // 20. Gateway
+  {
+    id: 20,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Gateway
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Gateway
+      </>
+    ),
+  },
+
+  // 21. Domain
+  {
+    id: 21,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Domain
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Domain
+      </>
+    ),
+  },
+
+  // 22. IP Address
+  {
+    id: 22,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        IP Address
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        IP-Adresse
+      </>
+    ),
+  },
+
+  // 23. LAN
+  {
+    id: 23,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        LAN
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        LAN
+      </>
+    ),
+  },
+
+  // 24. WAN
+  {
+    id: 24,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        WAN
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        WAN
+      </>
+    ),
+  },
+
+  // 25. DHCP
+  {
+    id: 25,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        DHCP
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        DHCP
+      </>
+    ),
+  },
+
+  // 26. VPN
+  {
+    id: 26,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        VPN
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        VPN
+      </>
+    ),
+  },
+
+  // 27. Router Settings
+  {
+    id: 27,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router Settings
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router-Einstellungen
+      </>
+    ),
+  },
+
+  // 28. Port Forwarding
+  {
+    id: 28,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Port Forwarding
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Portweiterleitung
+      </>
+    ),
+  },
+
+  // 29. Proxy
+  {
+    id: 29,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Proxy
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Proxy
+      </>
+    ),
+  },
+
+  // 30. Router Password
+  {
+    id: 30,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router Password
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Router-Passwort
+      </>
+    ),
+  },
+
+  // 31. NAT
+  {
+    id: 31,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        NAT
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        NAT
+      </>
+    ),
+  },
+
+  // 32. Subnet Mask
+  {
+    id: 32,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Subnet Mask
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Subnetzmaske
+      </>
+    ),
+  },
+
+  // 33. Wireless Network
+  {
+    id: 33,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Wireless Network
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Drahtloses Netzwerk
+      </>
+    ),
+  },
+
+  // 34. Bandwidth Management
+  {
+    id: 34,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Bandwidth Management
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Bandbreitenmanagement
+      </>
+    ),
+  },
+
+  // 35. Access Point
+  {
+    id: 35,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Access Point
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Zugangspunkt
+      </>
+    ),
+  },
+
+  // 36. Wireless Security
+  {
+    id: 36,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Wireless Security
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Drahtlose Sicherheit
+      </>
+    ),
+  },
+
+  // 37. Firewall Rules
+  {
+    id: 37,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Firewall Rules
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Firewall-Regeln
+      </>
+    ),
+  },
+
+  // 38. QoS
+  {
+    id: 38,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        QoS
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        QoS
+      </>
+    ),
+  },
+
+  // 39. DHCP Server
+  {
+    id: 39,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        DHCP Server
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        DHCP-Server
+      </>
+    ),
+  },
+
+  // 40. Virtual LAN
+  {
+    id: 40,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Virtual LAN
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Virtuelles LAN
+      </>
+    ),
+  },
+
+  // 41. Traffic Shaping
+  {
+    id: 41,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Traffic Shaping
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Verkehrskontrolle
+      </>
+    ),
+  },
+
+  // 42. Network Interface
+  {
+    id: 42,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Network Interface
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Netzwerkschnittstelle
+      </>
+    ),
+  },
+
+  // 43. Public IP
+  {
+    id: 43,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Public IP
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Öffentliche IP
+      </>
+    ),
+  },
+
+  // 44. Private IP
+  {
+    id: 44,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Private IP
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Private IP
+      </>
+    ),
+  },
+
+  // 45. Network Configuration
+  {
+    id: 45,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Network Configuration
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Netzwerkkonfiguration
+      </>
+    ),
+  },
+
+  // 46. Network Security
+  {
+    id: 46,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Network Security
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Netzwerksicherheit
+      </>
+    ),
+  },
+
+  // 47. IP Configuration
+  {
+    id: 47,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        IP Configuration
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        IP-Konfiguration
+      </>
+    ),
+  },
+
+  // 48. Network Monitoring
+  {
+    id: 48,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Network Monitoring
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Netzwerküberwachung
+      </>
+    ),
+  },
+
+  // 49. Network Traffic
+  {
+    id: 49,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Network Traffic
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Netzwerkverkehr
+      </>
+    ),
+  },
+
+  // 50. Network Device
+  {
+    id: 50,
+    frontHTML: (
+      <>
+        <img
+          src="/uk.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Network Device
+      </>
+    ),
+    backHTML: (
+      <>
+        <img
+          src="/german.png"
+          width={40}
+          style={{ margin: "auto", paddingBottom: "25px" }}
+          alt=""
+        />
+        Netzwerkgerät
       </>
     ),
   },

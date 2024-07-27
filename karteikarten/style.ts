@@ -17,6 +17,7 @@ export const flashStyleCardFront: React.CSSProperties = {
   justifyContent: "center",
   alignItems: "center",
   textAlign: "center",
+  backgroundColor: "#FFF",
 };
 
 export const flashStyleCardBack: React.CSSProperties = {
@@ -24,4 +25,5 @@ export const flashStyleCardBack: React.CSSProperties = {
   justifyContent: "center",
   alignItems: "center",
   textAlign: "center",
+  backgroundColor: "#FFF8F0",
 };
