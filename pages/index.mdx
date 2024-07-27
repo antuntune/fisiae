@@ -1,6 +1,12 @@
 import Image from "next/image";
 import { FlashcardArray } from "react-quizlet-flashcard";
 import { cards } from "../karteikarten/english.js";
+import {
+  flashStyleContentFront,
+  flashStyleContentBack,
+  flashStyleCardFront,
+  flashStyleCardBack,
+} from "../karteikarten/style.ts";
 
 # Willkommen
 
@@ -31,5 +37,12 @@ Detaillierte Erklärungen zu verschiedenen Themen, um ein besseres Verständnis 
 Viel Spaß beim Lernen!
 
 <div>
-  <FlashcardArray cards={cards} />
+  <FlashcardArray
+    cards={cards}
+    cycle={true}
+    frontContentStyle={flashStyleContentFront}
+    backContentStyle={flashStyleContentBack}
+    frontCardStyle={flashStyleCardFront}
+    backCardStyle={flashStyleCardBack}
+  />
 </div>
