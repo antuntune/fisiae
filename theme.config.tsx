@@ -10,17 +10,28 @@ const config: DocsThemeConfig = {
       <span style={{ paddingLeft: "0.6rem" }}>FISIAE</span>
     </>
   ),
-  // project: {
-  //   link: "https://github.com/shuding/nextra-docs-template",
-  // },
+  project: {
+    link: "https://github.com/antuntune/fisiae",
+  },
   chat: {
     link: "https://discord.com/channels/1259787636198084718",
   },
   docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
   footer: {
     text: (
-      <span>
+      <span style={{ margin: "auto", textAlign: "center" }}>
         <p>&copy; 2024 antuntune 🏴‍☠️</p>
+        <br></br>
+        <iframe
+          width="460"
+          height="260"
+          src="https://www.youtube.com/embed/oN6doVEr1XM?si=b8lAK1rA3TxaOjsg&amp;start=17"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </span>
     ),
   },
