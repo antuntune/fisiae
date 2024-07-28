@@ -1,23 +1,21 @@
-# Nextra Docs Template 
+# Fisiae Web App
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+![Fisiae Web App](public/office.jpg)
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+Welcome to the Fisiae Web App! This platform provides school notes and educational resources to assist students in their studies. The site includes daily notes, in-depth articles, and flashcards, with features allowing users to comment and react to content.
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## Features
 
-## Quick Start
+- **Daily Notes**: Organized notes from daily classes.
+- **In-Depth Insights**: Detailed explanations on various topics.
+- **Flashcards**: Tools to review and reinforce learning.
+- **Comments and Reactions**: Interact with content using GitHub accounts.
 
-Click the button to clone this repository and deploy it on Vercel:
+## Getting Started
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+To set up the project locally:
 
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/antuntune/fisiae.git
+   ```
