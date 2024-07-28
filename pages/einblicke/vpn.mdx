@@ -65,3 +65,15 @@ import { quiz } from "../../quizze/vpn.js";
 import Quiz from "react-quiz-component";
 
 <Quiz quiz={quiz} />
+
+import { DiscussionEmbed } from "disqus-react";
+
+<DiscussionEmbed
+  shortname="EXAMPLE"
+  config={{
+    url: this.props.article.url,
+    identifier: this.props.article.id,
+    title: this.props.article.title,
+    language: "zh_TW", //e.g. for Traditional Chinese (Taiwan)
+  }}
+/>
