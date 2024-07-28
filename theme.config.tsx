@@ -2,6 +2,7 @@ import React from "react";
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import VideoPlayer from "./components/videoPlayer.jsx";
 
 const config: DocsThemeConfig = {
   logo: (
@@ -22,16 +23,7 @@ const config: DocsThemeConfig = {
       <span style={{ margin: "auto", textAlign: "center" }}>
         <p>&copy; 2024 antuntune 🏴‍☠️</p>
         <br></br>
-        <iframe
-          width="460"
-          height="260"
-          src="https://www.youtube.com/embed/oN6doVEr1XM?si=b8lAK1rA3TxaOjsg&amp;start=17"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+        <VideoPlayer />
       </span>
     ),
   },
