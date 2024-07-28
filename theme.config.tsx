@@ -7,7 +7,13 @@ import VideoPlayer from "./components/videoPlayer.jsx";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <Image src="/computer.png" alt="Hello" width={40} height={40} />
+      <Image
+        src="/computer.png"
+        alt="Hello"
+        width={40}
+        height={40}
+        style={{ borderRadius: "0" }}
+      />
       <span style={{ paddingLeft: "0.6rem" }}>FISIAE</span>
     </>
   ),
