@@ -14,7 +14,11 @@ const config: DocsThemeConfig = {
         height={40}
         style={{ borderRadius: "0" }}
       />
-      <span style={{ paddingLeft: "0.6rem" }}>FISIAE</span>
+      <span
+        style={{ paddingLeft: "0.6rem", fontFamily: "Teko", fontSize: "25px" }}
+      >
+        FISIAE
+      </span>
     </>
   ),
   project: {
