@@ -1,8 +1,8 @@
 export default function VideoPlayer() {
   return (
     <iframe
-      width="460"
-      height="260"
+      width="420"
+      height="240"
       src="https://www.youtube.com/embed/oN6doVEr1XM?si=b8lAK1rA3TxaOjsg&amp;start=17"
       title="YouTube video player"
       frameborder="8"
