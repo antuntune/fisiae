@@ -61,7 +61,7 @@ const config: DocsThemeConfig = {
         <meta property="og:title" content={frontMatter.title || "FISIAE"} />
         <meta
           property="og:description"
-          content={frontMatter.description || "The next site builder"}
+          content={frontMatter.description || "Fachinformatiker"}
         />
       </>
     );
