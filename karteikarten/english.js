@@ -10,7 +10,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Firewall
+        Search Engine
       </>
     ),
     backHTML: (
@@ -21,7 +21,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Firewall
+        Suchmaschine
       </>
     ),
   },
@@ -37,7 +37,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Router
+        Output
       </>
     ),
     backHTML: (
@@ -48,7 +48,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Router
+        Ausgabe
       </>
     ),
   },
@@ -118,7 +118,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Server
+        Mainboard
       </>
     ),
     backHTML: (
@@ -129,7 +129,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Server
+        Hauptplatine
       </>
     ),
   },
@@ -226,7 +226,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Firmware
+        Chassis
       </>
     ),
     backHTML: (
@@ -237,7 +237,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Firmware
+        Gehäuse
       </>
     ),
   },
@@ -253,7 +253,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        IP Address
+        Web Developer
       </>
     ),
     backHTML: (
@@ -264,7 +264,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        IP-Adresse
+        Webentwickler(in)
       </>
     ),
   },
@@ -280,7 +280,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Protocol
+        Network
       </>
     ),
     backHTML: (
@@ -291,7 +291,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Protokoll
+        (Computer)netzwerk
       </>
     ),
   },
@@ -334,7 +334,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Cache
+        Database
       </>
     ),
     backHTML: (
@@ -345,7 +345,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Cache
+        Datenbank
       </>
     ),
   },
@@ -361,7 +361,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Backup
+        Install
       </>
     ),
     backHTML: (
@@ -372,7 +372,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Backup
+        Einbauen, einsetzen
       </>
     ),
   },
@@ -388,7 +388,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Debug Mode
+        Expansion
       </>
     ),
     backHTML: (
@@ -399,7 +399,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Debug-Modus
+        Erweiterung
       </>
     ),
   },
@@ -415,7 +415,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Internet
+        Feature
       </>
     ),
     backHTML: (
@@ -426,7 +426,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Internet
+        Eigenschaft
       </>
     ),
   },
@@ -442,7 +442,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Router
+        Hard Disk
       </>
     ),
     backHTML: (
@@ -453,7 +453,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Router
+        Festplatte
       </>
     ),
   },
@@ -469,7 +469,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Modem
+        Operating System
       </>
     ),
     backHTML: (
@@ -480,7 +480,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Modem
+        Betriebssystem
       </>
     ),
   },
@@ -496,7 +496,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Switch
+        Trackball
       </>
     ),
     backHTML: (
@@ -507,7 +507,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Switch
+        Rollkugel
       </>
     ),
   },
@@ -523,7 +523,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Gateway
+        PCB (Printed Circuit Board)
       </>
     ),
     backHTML: (
@@ -534,7 +534,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Gateway
+        Platine
       </>
     ),
   },
@@ -550,7 +550,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Domain
+        Memory
       </>
     ),
     backHTML: (
@@ -561,7 +561,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        Domain
+        Speicher
       </>
     ),
   },
@@ -604,7 +604,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        LAN
+        IT Consultant
       </>
     ),
     backHTML: (
@@ -615,7 +615,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        LAN
+        IT-Berater(in)
       </>
     ),
   },
@@ -631,7 +631,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        WAN
+        Access
       </>
     ),
     backHTML: (
@@ -642,7 +642,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        WAN
+        Zugriff
       </>
     ),
   },
@@ -658,7 +658,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        DHCP
+        Fiber
       </>
     ),
     backHTML: (
@@ -669,7 +669,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        DHCP
+        Faser
       </>
     ),
   },
@@ -685,7 +685,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        VPN
+        Interface
       </>
     ),
     backHTML: (
@@ -696,7 +696,7 @@ export const cards = [
           style={{ margin: "auto", paddingBottom: "25px" }}
           alt=""
         />
-        VPN
+        Schnittstelle
       </>
     ),
   },
