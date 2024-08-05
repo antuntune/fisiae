@@ -52,7 +52,7 @@ const config: DocsThemeConfig = {
     const { asPath, defaultLocale, locale } = useRouter();
     const { frontMatter } = useConfig();
     const url =
-      "https://my-app.com" +
+      "https://fisiae.vercel.app" +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
 
     return (
