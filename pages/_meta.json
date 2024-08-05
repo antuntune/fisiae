@@ -8,15 +8,15 @@
     "title": "📅Tägliche Notizen",
     "type": "menu",
     "items": {
-      "lf00": {
+      "asdf": {
         "title": "LF00",
         "href": "/daily/LF00"
       },
-      "lff1": {
+      "fdfsa": {
         "title": "LF-F1",
         "href": "/daily/LF-F1"
       },
-      "lf01": {
+      "fdsa": {
         "title": "LF01",
         "href": "/daily/LF01"
       }
