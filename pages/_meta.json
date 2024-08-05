@@ -8,13 +8,17 @@
     "title": "📅Tägliche Notizen",
     "type": "menu",
     "items": {
-      "about": {
+      "lf00": {
         "title": "LF00",
         "href": "/daily/LF00"
       },
-      "contact": {
+      "lff1": {
         "title": "LF-F1",
         "href": "/daily/LF-F1"
+      },
+      "lf01": {
+        "title": "LF01",
+        "href": "/daily/LF01"
       }
     }
   },
