@@ -246,8 +246,8 @@ export const quiz = {
         "Der Ausbildende hat Auszubildenden und der IHK einen zeitlich und sachlich gegliederten Ausbildungsplan entsprechend der Ausbildungsordnung vorzulegen ist richtig.",
       point: "20",
     },
-    {
-      ,
+
+    ,
     {
       question: "Welche Aussage ist falsch?",
       questionType: "text",
@@ -264,25 +264,26 @@ export const quiz = {
       messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
       explanation:
         "Ausbildungsvergütung wird nicht gezahlt, wenn man betrieblich bedingt freigestellt ist ist falsch.",
-      point: "20"
+      point: "20",
     },
-{
-  "question": "Welche Aussage ist richtig?",
-  "questionType": "text",
-  "answerSelectionType": "single",
-  "answers": [
-    "Die Probezeit kann vier Monate, aber auch sechs Monate betragen.",
-    "Auszubildende können für sich selbst entscheiden, ob sie sich die Arbeitshilfen und Arbeitsanweisungen des Ausbilders für die Zukunft merken.",
-    "Ausbildungsnachweise müssen in der Berufsschule oder als Hausarbeit geführt werden.",
-    "Den Ausbildungsnachweis unterschreibt der Berufsschullehrer.",
-    "Für den nicht pfleglichen Umgang mit Arbeitsmaterialien und Werkzeugen des Ausbildenden kann der Auszubildende mit Schadensersatz belangt werden."
-  ],
-  "correctAnswer": "5",
-  "messageForCorrectAnswer": "Richtige Antwort. Gut gemacht.",
-  "messageForIncorrectAnswer": "Falsche Antwort. Bitte versuche es erneut.",
-  "explanation": "Für den nicht pfleglichen Umgang mit Arbeitsmaterialien und Werkzeugen des Ausbildenden kann der Auszubildende mit Schadensersatz belangt werden ist richtig.",
-  "point": "20"
-},
+    {
+      question: "Welche Aussage ist richtig?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Die Probezeit kann vier Monate, aber auch sechs Monate betragen.",
+        "Auszubildende können für sich selbst entscheiden, ob sie sich die Arbeitshilfen und Arbeitsanweisungen des Ausbilders für die Zukunft merken.",
+        "Ausbildungsnachweise müssen in der Berufsschule oder als Hausarbeit geführt werden.",
+        "Den Ausbildungsnachweis unterschreibt der Berufsschullehrer.",
+        "Für den nicht pfleglichen Umgang mit Arbeitsmaterialien und Werkzeugen des Ausbildenden kann der Auszubildende mit Schadensersatz belangt werden.",
+      ],
+      correctAnswer: "1",
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Die Probezeit kann vier Monate, aber auch sechs Monate betragen ist richtig.",
+      point: "20",
+    },
     {
       question: "Welche Aussage ist falsch?",
       questionType: "text",
