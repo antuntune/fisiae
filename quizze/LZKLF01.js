@@ -264,8 +264,9 @@ export const quiz = {
       messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
       explanation:
         "Ausbildungsvergütung wird nicht gezahlt, wenn man betrieblich bedingt freigestellt ist ist falsch.",
-      point: "20",
-    },{
+      point: "20"
+    },
+{
   "question": "Welche Aussage ist richtig?",
   "questionType": "text",
   "answerSelectionType": "single",
@@ -281,7 +282,7 @@ export const quiz = {
   "messageForIncorrectAnswer": "Falsche Antwort. Bitte versuche es erneut.",
   "explanation": "Für den nicht pfleglichen Umgang mit Arbeitsmaterialien und Werkzeugen des Ausbildenden kann der Auszubildende mit Schadensersatz belangt werden ist richtig.",
   "point": "20"
-}
+},
     {
       question: "Welche Aussage ist falsch?",
       questionType: "text",
