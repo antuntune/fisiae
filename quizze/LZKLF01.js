@@ -247,7 +247,6 @@ export const quiz = {
       point: "20",
     },
 
-    ,
     {
       question: "Welche Aussage ist falsch?",
       questionType: "text",
