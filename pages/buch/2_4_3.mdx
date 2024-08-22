@@ -1,0 +1,107 @@
+## 2.4.3 Prozessoren genauer beschreiben
+
+**S:** Sie sollen Prozessoren für Arbeitsplatzcomputer vergleichen und genauer beschreiben.
+
+Der Mikroprozessor (CPU) ist die wichtigste Komponente im Computer bezogen auf die Leistung in der Verarbeitung der Daten. Er ist wie oben dargestellt fest auf der Hauptplatine verlötet oder auf einen Sockel gesteckt. Der Prozessor ist jedoch nicht nur das Leistungskraftwerk, sondern auch das Herz des Computers, da keine Komponente bzw. der Chipsatz auf dem Mainboard ohne Prozessor betrieben werden kann. In dieser Funktion ist er das leistungsstärkste System. Die folgenden Faktoren bestimmen die Leistung der Prozessoren.
+
+### Intel- und AMD-Prozessoren im Vergleich
+
+| **Kriterium**                                                   | **AMD**                                                                                                                        | **Intel**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Prozessoren für Desktops und Notebooks**                      | AMD Ryzen 3 bis 9                                                                                                              | Intel Core i3, i5, i7, i9 etc. je nach Anzahl der Cores                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Prozessoren für leistungsstärkere und robustere Workstation** | AMD Ryzen Threadripper                                                                                                         | Intel XEON-Prozessoren in den Performance-Stufen Bronze, Silver, Gold und Platinum, unterschiedlich in ihren Cores und Erweiterungsmöglichkeiten wegen vielfältiger Einsatzmöglichkeiten                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Basis**                                                       | Andere Hauptplatine, CPU-Sockel und Chipsätze                                                                                  | Andere Hauptplatine, CPU-Sockel und Chipsätze                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Vergleich**                                                   | Flexiblere Möglichkeiten des Leistungseinsatzes, z.B. durch Autotaktung; günstiger im Preis; auf Standardanwendungen ausgelegt | In der Regel mehr Cores als einfache Core-Prozessoren; mehr Hauptspeicherzugriff; mehr Cache; integrierte Grafikkarte (GPU) fehlt i.d.R.; Übertaktungsmöglichkeiten geringer; Multiprozessoren nicht möglich; mehr PCIe-Lanes; größere Befehlssumme (z.B. zu Fehlermeldungen); Error Correcting Code Memory (ECC-Speicher), um Fehler im Speicher zu korrigieren; niedrigere Thermal Design Power (TDP); Sie verbrauchen i.d.R. weniger Energie und produzieren weniger Wärme, dafür bessere Kühlsysteme und Netzteile sowie externe Grafikkarten je nach Anforderungen. |
+
+Im Folgenden ist ein stark verkürzter und vereinfachter Vergleich der Prozessorsorten von AMD und Intel aufgeführt, um einen ersten Eindruck zu erhalten, dass Prozessorhersteller einerseits im Wettbewerb miteinander stehen, aber andererseits versuchen, je nach Leistungsanforderungen passende Prozessortypen anzubieten. Als Arbeitsauftrag soll dieser Vergleich aktualisiert, verbessert und erweitert werden.
+
+### Mikroprozessor (CPU) – Leistungskomponenten
+
+#### Begriff
+
+Der Mikroprozessor (Central Processing Unit – CPU, Hauptprozessor oder zentrale Verarbeitungseinheit im Computer) holt aus dem Speicher nacheinander die Befehle und veranlasst die Informationsverarbeitung, Steuerung und Kontrolle der Systeme. Neben dem Hauptprozessor gibt es weitere Prozessoren zur Entlastung für Spezialaufgaben, z.B. den Grafikprozessor (GPU) für grafische Berechnungen. Als Mikrocontroller verfügt der Prozessor über zusätzliche analoge und digitale Ein- und Ausgänge, übernimmt Steuerungsaufgaben, wird viel in Embedded-Systems (IoT) eingesetzt.
+
+#### Bestandteile der CPU
+
+- Rechenwerk (Arithmetic Logic Unit, ALU)
+- Steuereinheit (Control Unit, CU)
+- Speichermanager (Memory Management Unit, MMU)
+- Zwischenspeicher (CPU-Cache)
+
+#### CPU-Prozessorarchitekturen
+
+Sie erhalten Codenamen wie z.B. bei Intel: Ice Lake; Nachfolger: Tiger Lake; bei AMD: Zen 3; Nachfolger: Zen 4 oder bei ARM Prozessoren mit RISC-Architektur (Reduced Instruction Set Computer) mit verschiedenen Cortex-Architekturen.
+
+### Leistungsfaktoren des Prozessors (CPU)
+
+#### Strukturgröße
+
+Chip-Hersteller wetteifern um die geringste Strukturgröße (Flächennutzung) in Nanometern (nm) bei Chips. Bei Intel werden 7-nm-Chips anvisiert, bei AMD, TSMC und Samsung bereits 5-nm-Designgrößen realisiert. Je kleiner die nm-Angabe ist, desto leistungsstärker (durch höhere Taktraten und mehr Kerne) und energieeffizienter ist der Chip. Dabei ist 1 nm etwa 500-mal dünner als ein Menschenhaar. Die Firmenangaben sind allerdings nicht mit gleichen Maßstäben berechnet, sodass der innerhalb der Hersteller zu vergleichen ist.
+
+#### Prozessorleistung
+
+Sie wurde in der Vergangenheit immer weiter optimiert, indem man immer mehr Transistoren auf dieselbe Fläche eines Chips brachte und somit die Zugriffszeiten verkürzte, den internen Rechneraufbau optimierte, die Betriebsspannung senkte, sodass man die Taktfrequenz erhöhen konnte. Nun ist man an der technisch möglichen Taktfrequenz angekommen. Weiterhin wurden Erweiterungskarten eingeführt, Funktionsblöcke im Prozessor mehrfach integriert, Speichercontroller, Grafikausgabe und Chipsätze eingeführt, Betriebssysteme so optimiert, dass heute ein Ein-Kern-Prozessor ca. 5.000-mal schneller ist als ein Prozessor der ersten Generationen. Da man nun an den physikalischen Grenzen des derzeit eingesetzten Materials angekommen ist, ist es nicht mehr möglich – wie früher nach Moores Gesetz –, alle 18 Monate die Taktfrequenz zu verdoppeln.
+
+In der Funktionalität geht es auch darum, welche Speicher (z.B. DDR4-XXXX) und Schnittstellen (z.B. PCI Express X.0, USB 3.X, Gen 2 und Wi-Fi 6) unterstützt werden. Da die wichtigen Prozessoranbieter (Intel, AMD) eigene Spezifikationen vorhalten, ist die Abhängigkeit im Systemverbund (Mainboard, Sockets etc.) groß.
+
+#### Garantie der Prozessorleistung
+
+Für anspruchsvolle Rechensysteme ist die Gewährleistung einer Dauerbelastung und hohen Taktstabilität wichtig, sodass einige Anbieter bei ausgewählten Prozessoren eine zusätzliche Garantie über die Herstellergarantie hinaus, z.B. als vorgetestet (pretested), geben.
+
+#### Cache
+
+Wichtiger Bestandteil des Prozessors ist der Cache oder Zwischenspeicher, ein besonders schneller Speicher, der direkt mit der CPU verbunden ist und den Prozessor durch Zwischenspeicherung wartender Prozesse und Daten entlastet und beschleunigt. Es sind daher die Größen der Cachespeicher (L1, L2, L3, siehe folgendes Kapitel) bei Anwendungen mit großem Cachebedarf zu beachten.
+
+#### Chipsatz
+
+Der Chipsatz auf dem Mainboard ist der Hauptcontroller zwischen den einzelnen Komponenten eines Computers. Er ist ein Halbleiterbaustein, der viele verschiedene Teile vereint. Sie sorgen für die Anbindung von Hauptprozessor (CPU), Bus-Systemen, Arbeitsspeicher, Laufwerken, Erweiterungskarten und anderen Geräten über die Schnittstellen. Die Wahl des Chipsatzes hat großen Einfluss auf die Gesamtleistung des Computersystems, sie werden von Prozessorherstellern selbst und von unabhängigen Herstellern angeboten. Der Chipsatz wird über die Einstellungen im BIOS konfiguriert. Bauteile, die im Chipsatz fehlen, kann der Mainboard-Hersteller zusätzlich auf der Mainboard anbieten. Beispielsweise für USB, SATA, Ethernet, HD Audio, I2C (SM Bus), SPI oder Low-Pin-Count (LPC) für einen Super-I/O-Chip, der nicht mehr nach außen reicht, lässt sich ein System nur durch Erweiterungskarten aufrüsten. Die Verbindung zwischen Hauptprozessor und Chipsatz ist oft abgewandelt PCI Express (PCIe).
+
+#### Erhöhung der Taktfrequenz
+
+Für Prozessorhersteller war es bisher möglich, die Taktfrequenz der Prozessoren dauerhaft auf über 5 GHz zu erhöhen. Daher hat man durch intelligentere Ausnutzung der CPU und zeitweise Übertaktung die Rechenleistung erheblich zu erhöhen versucht. Die Erhöhung der Taktfrequenz hat auch Nachteile, z.B. einen höheren Energieverbrauch, höhere Wärmeentwicklung und lautere Computer durch aktive Kühlung.
+
+### Parallelisierung
+
+Die Entwickler von Prozessoren haben im Laufe der Zeit festgestellt, dass sich die Geschwindigkeit eines Prozessors nicht nur durch die Erhöhung der Taktfrequenz beschleunigen lässt. Man hat daher versucht, den Prozessor effizienter zu nutzen. Da es bei der Abarbeitung des Programmcodes immer wieder zu Verzögerungen kommt, z.B. durch Speicher- und Peripheriezugriffe, kann man die Wartezeit intelligenter nutzen und andere Programmcodes ausführen. Folgende Möglichkeiten der Parallelverarbeitung werden genutzt:
+
+1. **Multi-Threading:** Mehrere Programmabläufe (Threads) und Funktionen werden parallel verwaltet und abwechselnd je nach Beanspruchung zugeschaltet, z.B. bis zu 32. Bei SMT laufen mehrere Threads simultan. Hyper-Threading stellt dem Betriebssystem Funktionen weiterer Prozessorkerne bereit. Nicht alle Programme können diese Möglichkeiten nutzen. Programmierer/-innen sollten bei zeitkritischen Programmen für die Möglichkeiten dieser Optimierung ausgebildet sein.
+
+2. **Pipelining:** Befehlsausführung parallel in mehreren Stufen und Phasen.
+
+3. **Coprocessor:** Spezieller Prozessor, der den Hauptprozessor um bestimmte Funktionen erweitert und ihn bei bestimmten Rechenaufgaben entlastet.
+
+4. **Multi-Prozessor:** Mehrere Prozessoren werden überwiegend in sehr leistungsstarken Großrechnern, Supercomputern und Servern eingebaut, weniger in Personal Computern.
+
+5. **Multi-Core-Prozessor:** In einem Prozessor sind mehrere Rechenkerne (Cores) zusammengeschaltet, sodass das Betriebssystem mehrere Recheneinheiten verarbeiten kann. Derzeit werden nicht Dual-Core für zwei Rechenkerne oder Quad-Core für vier Rechenkerne angeboten, sondern die Anzahl der Prozessoren auf ein Vielfaches hin zu Many-Core-CPUs mit 256 oder sogar 1.024 Rechenkernen pro Prozessor gesteigert. Intel bezeichnet seine Prozessoren, die insbesondere in Desktops und Notebooks verbaut werden, je nach Anzahl der Cores mit z.B. i5, i7 oder i9. In Servern und leistungsstärkeren Workstation kommen XEON-Prozessoren zum Einsatz.
+
+### Turbo Boost (Intel) und Precision Boost (AMD)
+
+Bei Multi-Core-CPU wird eine automatische Übertaktung zur schnelleren Bearbeitung von Einkern-Programmen, zur Energieeinsparung und Wärmeoptimierung bis zur TDP-Grenze und bei genügender Kühlung sogar darüber hinaus (Super-Turbo, Overdrive) eingebaut. Kerne werden nur dann zugeschaltet, wenn ein Kern auch mit Übertaktung nicht ausreicht und zu heiß wird. Anwendungen, die nicht alle Kerne eines Mehrkern-Prozessors auslasten, werden beschleunigt, indem einzelne Kerne des Prozessors höher getaktet werden und die anderen Kerne in den Wartezustand gelegt werden.
+
+### Multimedia-Erweiterungen
+
+Prozessorhersteller stellten mit MMX, XMM und SEE Befehlssätze für Entwickler auf der Basis von 64 und 128 Bit zur Verfügung, um den hohen Anforderungen von Multimedia- und Spielsoftware zu entsprechen.
+
+### Thermal Design Power (TDP)
+
+Als wichtiger Parameter eines Prozessors gibt die TDP die maximal abgegebene Wärmeleistung (Kernspannung und Temperatur) eines Prozessors an, sie liegt etwas unterhalb der maximalen technischen Leistungsaufnahme. Die TDP-Parameter werden je nach Hersteller etwas anders berechnet. Kühler: Kühler schützen den Prozessor (CPU) vor Überhitzung und Ausfall. Es gibt Luftkühler, Wasserkühler und All-in-one-Wasserkühlungen. Luftkühler sollten eine möglichst hohe TDP als der Prozessor besitzen. All-in-one-Wasserkühlungen (CLC-Kühler) mit geschlossenem Kreislauf kombinieren die besten Aspekte von Luft- und Wasserkühlungen für den Prozessor (CPU). Sie sind effizienter als eine Luftkühlung zu montieren und dennoch gut mit einer guten Kühlleistung einer Wasserkühlung für Gaming-PCs besonders beliebt.
+
+### GPGPU
+
+GPGPU (General Purpose Computation on Graphics Processing Unit) ist eine Programmier-Schnittstelle mit der Möglichkeit, allgemeine Berechnungen vom Grafikprozessor (GPU) auf der Grafikkarte ausführen zu lassen. GPGPU wird bei Hochleistungscomputern mit sehr leistungsstarken Grafikprozessoren genutzt. Grafikkarten sind hier auf GPGPU-Eigenschaft zu prüfen.
+
+### Kompetenzcheck
+
+1. **Erläutern Sie mit eigenen Worten, was man vereinfacht unter nm, Multi Core, Kühler, Parallelisierung, Taktfrequenz, MHz, Multi-Threading, Turbo Boost, GPGPU versteht.**
+
+   - **nm:** Nanometer, Maß für die Strukturgröße von Prozessoren, das die Größe der kleinsten Bauteile im Chip beschreibt.
+   - **Multi Core:** Ein Prozessor mit mehreren Rechenkernen, die parallel arbeiten können, um die Rechenleistung zu steigern.
+   - **Kühler:** Ein Gerät, das den Prozessor vor Überhitzung schützt, indem es die Wärme abführt.
+   - **Parallelisierung:** Der Prozess der gleichzeitigen Ausführung mehrerer Aufgaben oder Threads durch einen Prozessor, um die Verarbeitungsgeschwindigkeit zu erhöhen.
+   - **Taktfrequenz:** Die Geschwindigkeit, mit der ein Prozessor Befehle ausführt, gemessen in Hertz (MHz oder GHz).
+   - **MHz:** Megahertz, eine Einheit zur Messung der Taktfrequenz eines Prozessors; 1 MHz = 1 Million Zyklen pro Sekunde.
+   - **Multi-Threading:** Eine Technik, bei der ein Prozessor mehrere Threads gleichzeitig verarbeitet, um die Effizienz zu steigern.
+   - **Turbo Boost:** Eine Technologie von Intel, die es ermöglicht, die Taktfrequenz eines einzelnen Prozessorkerns zu erhöhen, wenn nicht alle Kerne ausgelastet sind.
+   - **GPGPU:** General Purpose Computation on Graphics Processing Unit; die Verwendung eines Grafikprozessors für allgemeine Berechnungen, nicht nur für Grafikaufgaben.
+
+2. **Bearbeiten Sie im Arbeitsbuch Aufgabe 5 zum Prozessorvergleich sowie mit Aufgabe 6 einen Zwischentest zu den bisher behandelten Themen und Fachbegriffen.**

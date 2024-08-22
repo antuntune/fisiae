@@ -1,0 +1,83 @@
+Natürlich, hier ist der gesamte Abschnitt 2.4.1 in Deutsch, inklusive der Lösungen für den Kompetenzcheck:
+
+---
+
+## 2.4.1 Zentraleinheit, Mainboard und Betriebssystem unterscheiden
+
+**S:** Sie sollen die Komponenten der Zentraleinheit vereinfacht und den Einsatz des Betriebssystems allgemein beschreiben.
+
+Auf die Grundkonfiguration des Computers wurde bereits in Kapitel 2.1 eingegangen. Die Zentraleinheit des Computers ist im engeren Sinne die Hauptplatine (Mainboard, Motherboard) des Computers mit seinen direkt darauf bestückten Komponenten. Die wichtigste Komponente ist der Prozessor (CPU, Central Processing Unit), der die Daten anhand des Programms (App = Application, Software, Anwendung) verarbeitet. Daten und Programme werden während des Computerbetriebs im Arbeitsspeicher (RAM = Random Access Memory, Direktzugriffsspeicher) gehalten, auf den die CPU direkt zugreifen kann. Die RAM-Speichermodule sind fest auf der Hauptplatine verlötet oder als Speicherkarten aufgesteckt. Alle Daten werden bei Ausschalten des Computers automatisch gelöscht, der RAM wird daher auch als flüchtiger Speicher bezeichnet. Damit der Computer einen Startvorgang ausführen kann, dient ein ROM (Read-Only-Memory = Nur-Lesespeicher) auf dem Motherboard, der dauerhaft ein Grundprogramm als Grundbetriebssystem oder BIOS (Basic-Input-Output-System, auch UEFI genannt) speichert. Dieses Basis-Programm führt den Startvorgang aus und ruft das auf einem externen Speicher (Festplatte) gespeicherte Betriebsprogramm (auch: Betriebssystem, Operating System) auf und führt es aus. Damit wird auch die Bedieneroberfläche (GUI = Graphical User Interface) verfügbar. Damit der Prozessor die Programme konfliktfrei bearbeiten kann, werden die Programm­befehle im Takt bearbeitet. Dazu dient an dem Motherboard installierter Taktgeber (Prozessoruhr, Clock, CLK, Quarzmodul).
+
+Als Betriebssysteme (Operating System) für Arbeitsplatzsysteme werden häufig Microsoft Windows, Apple OS, Linux oder vermehrt Google Android eingesetzt. Sie unterscheiden sich in der Bedieneroberfläche, in den Funktionen, im Sicherheitsmanagement und in den dafür entwickelten Anwendungsprogrammen (Apps).
+
+Da Programme und Apps selten für alle Betriebssysteme entwickelt werden, besteht bei Anwendern der Wunsch, mehrere Betriebssysteme auf einem Computer laufen zu lassen und damit jeweils auch die dazu kompatiblen (passenden) Programme. Es wurde daher ein zusätzliches Betriebsprogramm entwickelt, das als sog. VMM (Virtual Machine Monitor) zwischen dem Basis- oder Hostbetriebssystem (z. B. Apple OS, hier: Betriebssystem 1) und weiteren Gastbetriebssystemen (z. B. Windows, Linux; hier: Betriebssysteme 2 und 3) vermittelt. Der VMM ermöglicht, dass die Gastbetriebssysteme virtuell alle Hardwareressourcen zur Verfügung gestellt bekommen. Für die virtuell laufende Maschine kann der Bedarf an Hardwareressourcen individuell festgelegt werden. Man spricht daher bei jedem Gastbetriebssystem von einer virtuellen Maschine. Ein weiterer Vorteil von virtuellen Maschinen ist, dass die Betriebssysteme in einem gesicherten Raum laufen und beim Absturz die Anwendungen der anderen Betriebssysteme nicht abstürzen lassen.
+
+### Betriebssystem-Virtualisierung
+
+Um eine Betriebssystem-Virtualisierung ausführen zu können, muss i.d.R. eine Virtualisierungssoftware Hypervisor (griech. „Aufseher“) oder ein Virtual Machine Monitor (VMM) installiert werden (z. B. Parallels Desktop für MacOS, VirtualBox, VMware Workstation). Unter Windows 10 kann ohne die Installation einer Virtualisierungssoftware ein Windows-Subsystem für Linux, kurz WSL, aufgerufen werden.
+
+In einer Controllerschicht verwaltet der VMM Hardware, Schnittstellen und Gastbetriebssysteme und sorgt dafür, dass Betriebssysteme und Apps nicht in Konflikt kommen. Bei der System-Virtualisierung wird ein System oder mehrere vollständige Systeme nachgebildet, worauf beliebig Betriebssysteme ausführbar sind. Die Systeme orientieren sich an echter Hardware, lassen sich aber virtuell betreiben und auf die Erfordernisse anpassen bzw. auf unterschiedliche virtuelle Maschinen verteilen.
+
+Um mehr über die System- und Starteigenschaften des Computers zu erfahren, kann man das BIOS bzw. UEFI aufrufen.
+
+### BIOS oder UEFI
+
+**Begriffe:**  
+BIOS steht für Basic-Input-Output-System und ist auf einem EPROM auf dem Motherboard installiert. Darin sind das Basic-Betriebssystem (Firmware) für den Startvorgang und die grundlegende Steuerung der Hardware-Komponenten gespeichert. Es startet das eigentliche, auf der Festplatte installierte Betriebssystem, führt zunächst einen Selbsttest verschiedener Hardware-Komponenten durch. Das BIOS wird seit 2011 immer mehr durch das schnellere, leistungsfähigere und mit besserer GUI laufende UEFI (Unified Extensible Firmware Interface) abgelöst.
+
+**Aufruf:**  
+Während des Startvorgangs kann man über Tasten Entf., F1, F2, F8, F10, ESC oder die Kombination STRG+ALT+ESC (vgl. jeweils das Computerhandbuch) je nach Hersteller die BIOS-Einstellungen aufrufen. Um UEFI-BIOS in Windows 10 zu starten, drückt man die Windows-Taste + I, um in die Einstellungen zu gelangen. Dort wählt man die Sicherheit-Wiederherstellung und klickt auf „Jetzt neu starten“.
+
+Systeminformationen lassen sich über die Benutzeroberfläche des Computers aufrufen.
+
+**CPU-Infos bei:**
+
+- **Windows:** Suchbegriff „Systeminfo“ in Status-/Taskleiste unten eingeben.
+- **MacOS:** Im Apfel-Menü mit der linken Taste auf „Über diesen Mac“ klicken.
+- **Linux:** Shelleingabe: `cat /proc/cpuinfo`.
+
+### Kompetenzcheck
+
+1. **Erläutern Sie mit eigenen Worten, was man unter ZE, CPU, BIOS, CLK, Betriebssystem, VMM, Apps versteht.**
+
+   - **ZE:** Zentraleinheit, das Herzstück des Computers, das alle wichtigen Komponenten wie CPU, RAM und BIOS enthält.
+   - **CPU:** Central Processing Unit, der Hauptprozessor, der Befehle verarbeitet und die Leistung des Computers steuert.
+   - **BIOS:** Basic Input/Output System, eine Firmware auf dem Motherboard, die den Startvorgang und die grundlegende Steuerung der Hardware ermöglicht.
+   - **CLK:** Clock, ein Taktgeber, der den Rhythmus für die Ausführung der Befehle im Computer festlegt.
+   - **Betriebssystem:** Software, die die grundlegende Verwaltung und Steuerung der Hardware und Software des Computers ermöglicht.
+   - **VMM:** Virtual Machine Monitor, eine Software, die mehrere Betriebssysteme auf einem Computer gleichzeitig ausführen lässt.
+   - **Apps:** Anwendungen oder Softwareprogramme, die bestimmte Aufgaben auf einem Computer ausführen.
+
+2. **Was ist richtig? Wer hat die schnellste Antwort?**
+
+   a) **CPU ist das Motherboard insgesamt.**
+
+   - **Falsch:** CPU ist nur der Prozessor, das Motherboard ist die gesamte Hauptplatine.
+
+   b) **CLK bedeutet Central Large Canceling.**
+
+   - **Falsch:** CLK bedeutet Clock und steht für die Taktung im Computer.
+
+   c) **UEVI ist ein anderes Wort für BIOS.**
+
+   - **Falsch:** Der richtige Begriff ist UEFI, nicht UEVI.
+
+   d) **Mit einer VMM können mehrere Betriebssysteme mit entsprechenden Programmen gleichzeitig laufen.**
+
+   - **Richtig:** VMM ermöglicht das gleichzeitige Ausführen mehrerer Betriebssysteme auf einem Computer.
+
+   e) **RAM bedeutet Read and Write Memory.**
+
+   - **Falsch:** RAM bedeutet Random Access Memory und ist der Arbeitsspeicher.
+
+   f) **Systeminformationen eines PCs erhält man über das Office-Programm.**
+
+   - **Falsch:** Systeminformationen ruft man über spezifische Systembefehle oder Tools ab, nicht über Office.
+
+3. **Rufen Sie die Systeminformationen und das BIOS eines PCs auf und erläutern Sie die Angaben.**
+
+   - Diese Aufgabe erfordert praktische Durchführung am PC, bei der Sie über die genannten Methoden (wie z.B. BIOS-Aufruf über die genannten Tastenkombinationen) die Systeminformationen überprüfen und analysieren können.
+
+4. **Bearbeiten Sie im Arbeitsbuch die Aufgabe 3 der Lernsituation 2 und geben Sie passende Begriffe zur Zentraleinheit an.**
+
+   - Diese Aufgabe setzt voraus, dass Sie im entsprechenden Arbeitsbuch die genannten Aufgaben lösen.
