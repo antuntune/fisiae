@@ -1,0 +1,142 @@
+### 2.4.5 Schnittstellen und Anschlüsse am Mainboard erläutern
+
+**S** Sie sollen verschiedene Schnittstellen und Anschlüsse für Arbeitsplatzcomputer zuordnen und erläutern.
+
+Beim Zusammenbau eines Computers müssen verschiedene Komponenten im Gehäuse mit dem Mainboard verbunden werden. Der Prozessor wird auf einen Prozessorsockel gesteckt, RAM-Riegel und Steckkarten werden entsprechend auf den zugehörigen Steckplätzen aufgebracht.
+
+#### Anschlüsse am Mainboard
+
+- **Sockel**  
+  Der Prozessor wird, wenn er bei kleineren Systemen und Notebooks nicht fest verlötet ist, auf einem Sockel platziert und mithilfe eines Aluminiumbügels fixiert. Die Sockel unterscheiden sich je nach Chipsatz des Mainboards des Herstellers.
+
+- **RAM-Steckplätze**  
+  Der Arbeitsspeicher (RAM: Random Access Memory) passt in die gleichnamigen Steckplätze (Slots). Sie gibt es in unterschiedlichen Größen und Versionen. Der schnelle DDR3-RAM ist mittlerweile Standard, DDR4-RAM aktuell.
+
+- **PCI-Steckplätze**  
+  PCI und PCIe sind Standards zur Verbindung von Peripheriegeräten mit dem Chipsatz eines Hauptprozessors. Sie sind hot-plug-fähig, sodass das Ein- und Ausbauen von Zusatzkarten im laufenden Betrieb möglich ist, sofern die Hardware und auch das Betriebssystem dies unterstützen. PCI Express (Peripheral Component Interconnect Express, abgekürzt PCIe) ist der Nachfolger von PCI, PCI-X und AGP und bietet im Vergleich zu seinen Vorgängern eine höhere Datenübertragungsrate pro Pin. Ein PCI-Express-Steckplatz kann das daran angeschlossene Gerät mit Strom versorgen.  
+  Für PCIe gibt es verschiedene Lanes:
+
+  - **PCIe 1.0**
+
+    - ×1: 250 MByte/s
+    - ×4: 1 GByte/s
+    - ×8: 2 GByte/s
+    - ×16: 4 GByte/s
+
+  - **PCIe 2.0**
+
+    - ×1: 500 MByte/s
+    - ×4: 2 GByte/s
+    - ×8: 4 GByte/s
+    - ×16: 8 GByte/s
+
+  - **PCIe 3.0**
+
+    - ×1: 1 GByte/s
+    - ×4: 4 GByte/s
+    - ×8: 8 GByte/s
+    - ×16: 16 GByte/s
+
+  - **PCIe 4.0**
+
+    - ×1: 2 GByte/s
+    - ×4: 8 GByte/s
+    - ×8: 16 GByte/s
+    - ×16: 32 GByte/s
+
+  - **PCIe 5.0**
+    - ×1: 4 GByte/s
+    - ×4: 16 GByte/s
+    - ×8: 32 GByte/s
+    - ×16: 64 GByte/s
+
+- **SATA-Anschlüsse**  
+  Über die SATA-Anschlüsse werden die Festplatten, SSD-Laufwerke und optischen Laufwerke verbunden.
+
+  - **Blaue SATA-Buchsen**: Diese Anschlüsse sind für den mit 6 GBit/s derzeit schnellsten SATA-Standard vorgesehen. Wegen der Abwärtskompatibilität kann man damit zwar auch Festplatten anschließen, die diese Geschwindigkeit nicht beherrschen, doch ohne einen Geschwindigkeitsvorteil.
+
+  - **Schwarze und rote SATA-Buchsen**: Hier gibt es leider je nach Mainboard-Hersteller verschiedene Bedeutungen. Generell sollen die Farben die RAID-Fähigkeit (Möglichkeit, Festplatten zur Ausfallsicherheit zusammenzuschließen; muss über BIOS eingeschaltet sein) unterscheiden.
+
+- **USB-Anschlüsse**  
+  Bereits am Mainboard befinden sich Anschlüsse für USB-Geräte. Hier werden allerdings meistens nur die Schnittstellen verbunden, die sich dann über die Gehäuserückwand anschließen lassen.
+
+  | Anschlusstyp | Datentransferrate | Datenrate |
+  | ------------ | ----------------- | --------- |
+  | USB 2.0      | 480 Mbit/s        | 60 MB/s   |
+  | USB 3.0      | 4,8 Gbit/s        | 600 MB/s  |
+  | USB 3.1      | 10 Gbit/s         | 1,2 GB/s  |
+  | USB 3.2      | 20 Gbit/s         | 2 GB/s    |
+
+  - **Firewire u.Ä.**
+
+    - **eSATA / MSATA**: 2,4 Gbit/s
+    - **Express Card**: 2 Gbit/s
+    - **Firewire 400**: 400 Mbit/s, 50 MB/s
+    - **Firewire 800**: 800 Mbit/s, 100 MB/s
+
+  - **Thunderbolt**
+    - **Thunderbolt**: 10 Gbit/s, 1,2 GB/s
+    - **Thunderbolt 2**: 20 Gbit/s, 2,4 GB/s
+    - **Thunderbolt 3**: 40 Gbit/s, 4,8 GB/s
+
+- **M.2-Port**  
+  Eine M.2-Karte wird in den passenden Port der Platine gesteckt und mit einer Befestigungsschraube fixiert. Komponenten können auf beiden Seiten der Karte angebracht sein. Die Spezifikationen wurden entworfen, um mSATA abzulösen. Aufgrund der kleineren und flexibleren Abmessungen in Verbindung mit erweiterten Funktionen ist M.2 besser für den Anschluss von SSD geeignet, insbesondere in kompakten Geräten wie Ultrabooks oder Tablets. Der M.2-Standard erlaubt Steckkarten mit Breiten von 12, 16, 22 oder 30 mm und Längen 16 bis 110 mm. Die derzeit gebräuchlichen M.2-SSD sind 22 mm breit und 42, 60 oder 80 mm lang.
+
+- **Lüfteranschluss**  
+  Der Lüfter muss mit Strom versorgt werden. Das geschieht über kleine 3-Pin-Anschlüsse.
+
+- **Stromanschluss**  
+  Über einen 24-poligen Anschluss wird das Mainboard mit Strom versorgt. Bei älteren Modellen kann der Anschluss auch nur 20-polig sein. Zusätzlich befindet sich oft in der Nähe der CPU ein kleiner, 8-poliger Anschluss, der den Prozessor mit Strom versorgt.
+
+#### Anschlüsse/Schnittstellen an der Rückseite am Mainboard
+
+- **Monitoranschlüsse**  
+  Die Schnittstellen HDMI, VGA und DVI transportieren die Bilddaten zum Monitor. Die neueren Standards HDMI und DisplayPort übertragen sogar Ton.
+
+- **USB-Ports**  
+  Sie können externe Festplatten, USB-Sticks, Mikrofone, Smartphones und vieles mehr anschließen. Den aktuellen, schnellen Standard USB 3.0 bis 3.2 erkennt man an den blauen Eingängen am Mainboard. Man kann hier aber auch ältere Geräte mit USB 2.0 oder sogar USB 1.0 anschließen, allerdings mit geringerer Übertragungsrate.
+
+- **P/S2-Port**  
+  Über den veralteten P/S2-Port werden ältere Mäuse und Tastaturen mit den breiten, runden Steckern angeschlossen.
+
+- **LAN**  
+  Über den LAN-Port werden Rechner mit dem LAN verbunden.
+
+- **Klinkenanschlüsse**  
+  Die zahlreichen verschiedenen 3,5-Millimeter-Eingänge in unterschiedlichen Farben übertragen den Ton bzw. Sound, möglichst eine Schnittstelle 7.1 für ein Sound-System, wenn gewünscht.
+
+### 2. **Was ist richtig?**
+
+a) **PCIe-Steckplätze sind für RAM-Karten und RAM-Riegel zu verwenden.**
+
+- **Falsch**: PCIe (Peripheral Component Interconnect Express) Steckplätze werden nicht für RAM (Arbeitsspeicher) verwendet. RAM-Module werden in speziellen RAM-Steckplätzen installiert, die als DIMM (Dual Inline Memory Module) Steckplätze bekannt sind. PCIe-Steckplätze dienen zum Anschließen von Erweiterungskarten wie Grafikkarten, Netzwerkkarten und anderen Peripheriegeräten.
+
+b) **Bei DIMMs ist beim Einbau auf die Einkerbungen zu achten.**
+
+- **Richtig**: Beim Einbau von DIMMs (RAM-Modulen) ist es wichtig, diese korrekt auszurichten. Die Einkerbungen im DIMM müssen mit den entsprechenden Vorsprüngen im Steckplatz übereinstimmen, um eine korrekte Installation zu gewährleisten.
+
+c) **SATA-Anschlüsse sind für Festplatten vorgesehen.**
+
+- **Richtig**: SATA (Serial ATA) Anschlüsse werden tatsächlich für den Anschluss von Speichergeräten wie Festplatten (HDDs), Solid-State-Drives (SSDs) und optischen Laufwerken an das Mainboard verwendet.
+
+d) **Je mehr Lanes, desto geringer ist die Datenrate/s.**
+
+- **Falsch**: Das Gegenteil ist der Fall. Bei der PCIe-Technologie gilt: Je mehr Lanes (x1, x4, x8, x16), desto höher ist die Datenübertragungsrate. Jede Lane kann Daten transportieren, und mehr Lanes erhöhen die Gesamtbandbreite.
+
+e) **Der M.2-Port löst den SATA-Port ab.**
+
+- **Teilweise richtig**: M.2-Anschlüsse können zum Anschluss von SSDs verwendet werden und bieten insbesondere mit NVMe (Non-Volatile Memory Express) SSDs höhere Geschwindigkeiten als herkömmliche SATA-Verbindungen. M.2 ersetzt jedoch SATA nicht vollständig, da SATA immer noch weit verbreitet für andere Laufwerkstypen verwendet wird.
+
+f) **Die Datentransferrate wird in GB/s gemessen.**
+
+- **Richtig**: Die Datenübertragungsrate kann in Gigabyte pro Sekunde (GB/s) gemessen werden, insbesondere im Zusammenhang mit Hochgeschwindigkeits-Schnittstellen wie PCIe.
+
+g) **USB-Anschlüsse gibt es bis zur Spezifikation 2.0.**
+
+- **Falsch**: USB-Anschlüsse existieren in Spezifikationen über USB 2.0 hinaus, einschließlich USB 3.0, 3.1, 3.2 und dem kommenden USB 4.0. Jede neue Spezifikation bietet schnellere Datenübertragungsraten und verbesserte Funktionen.
+
+### Zusammenfassung der richtigen Antworten:
+
+- **b)**
+- **c)**
+- **f)**

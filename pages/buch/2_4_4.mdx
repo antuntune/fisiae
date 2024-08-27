@@ -1,0 +1,103 @@
+## 2.4.4 Arbeitsspeicher – RAM-Speicher erläutern und unterscheiden
+
+**S:** Sie sollen verschiedene RAM-Speicher für Arbeitsplatzcomputer vergleichen und genauer beschreiben.
+
+Sobald ein Programm gestartet oder eine Datei geladen wird, werden die Daten von der Festplatte (SSD) in den Arbeitsspeicher oder in den schnellen Zwischenspeicher (Cache) geladen. Dort greift die CPU auf die Daten zu, benutzt mehrere Programme und Daten gleichzeitig, wenn diese parallel laufen. Entsprechend wird mehr oder weniger Speicher oder RAM benötigt. RAM-Speicher wird als Lese- und Schreibspeicher beim Herunterfahren des Personal Computers gelöscht.
+
+Arbeitsspeicher werden je nach Art des Rechners fest auf der Hauptplatine verbaut oder über Steckplätze ergänzt. Die maximale Größe ist daher von der Anzahl der vorhandenen Steckplätze begrenzt. Als Baugröße der Steckplätze werden unterschiedliche Formate angeboten. In Desktop-PCs und Servern kommt üblicherweise das sog. DIMM (Dual In Line Memory Modul) zum Einsatz, bei Laptops und Notebooks wird meistens SO-DIMM (Small Outline DIMM) eingesetzt.
+
+Je mehr Hauptspeicher zur Verfügung steht, desto schneller können Programme verarbeitet werden. Auf eine passende Hauptspeichergröße ist daher zu achten. Je neuer bzw. aktueller die Speichertechnik ist, desto weniger Energie verbraucht sie.
+
+Um Daten dem Prozessor trotz großem Geschwindigkeitsunterschied zwischen schnellem Prozessor und langsamem RAM-Speicher optimal zur Verfügung zu stellen, werden Zwischenspeicher (Cache-Speicher) hierarchisch mit unterschiedlicher Leistung und Größe (Level 1/2/3) verwendet. Ein Level-1-Cache für häufig verwendete Befehle und Daten ist möglichst so schnell wie der Prozessor, der L2-Cache größer und langsamer, jedoch schneller als RAM-Speicher. Der L3-Cache dient dem Datenabgleich der Caches und der Cores.
+
+### Hauptspeicher Arbeitsspeicher RAM
+
+**RAM** steht für „Random Access Memory“. Je größer der Arbeitsspeicher, desto besser, da dann das System schneller arbeitet und mehr aktive Daten verwendet werden kann. Die Leistungsfähigkeit ist auch von der unterstützten Geschwindigkeit des RAM-Moduls in Megatransfers pro Sekunde (MT/s) abhängig. Daneben ist auch die Bandbreite wichtig, d.h. die Gesamtdatenmenge, die das Speichermodul auf einmal verarbeiten kann. Damit das beste Leistungsverhältnis der Komponenten realisiert wird, müssen Prozessor, Mainboard mit Chipsatz, Cachespeicher und Arbeitsspeicher gut aufeinander abgestimmt sein.
+
+#### Anforderungen
+
+Für Windows 10 empfiehlt Microsoft in der 32-Bit-Version mindestens 1 GB RAM, für die 64-Bit-Version 2 GB. In der Praxis werden für einen Standard-PC mindestens 4 GB empfohlen. Wenn viele Programme gleichzeitig genutzt werden, sollten mindestens 8 GB oder besser noch 16 GB Arbeitsspeicher integriert sein.
+
+#### JEDEC (Joint Electronic Device Engineering Council)
+
+Diese Organisation legt die Spezifikation für die elektrischen und zeitlichen Parameter der Speicher-Controller und der Speicherrichs fest. Die JEDEC schreibt ganz bestimmte Chip-Kombinationen vor. So wird sichergestellt, dass die Chips mit unterschiedlicher Kapazität und von verschiedenen Herstellern kompatibel sind.
+
+#### Speichererweiterungen
+
+Je nach Art des Computers ist er fertig konfiguriert und/oder lässt Erweiterungen über Steckplätze (Slots) zu. Die Anzahl der Speicherriegel auf der Hauptplatine bestimmt die Möglichkeiten des Speicherausbaus, sowie Speichernachrüstungen durch andere Komponenten (z.B. Lüfter) bedingt sind. RAM wird in Riegel unterschiedlicher Größe angeboten. Typische Größen sind 1, 2, 4, 8 und 16 GB pro DIMM-Riegel (DIMM für Dual Inline Memory Module) und Arbeitsspeichermodule für Desktop-Systeme. RAM-Speicher im SO-DIMM-Format wird in Laptops und oft in Mini-PCs (häufig fest) verbaut. Zur Erweiterung und Konfiguration weiterer Speicherriegel siehe Kapitel 8.
+
+#### Formfaktoren
+
+UDIMM oder das ungepufferte Dual-Inline-Speichermodul ist der häufigste Formfaktor des Arbeitsspeichers, den Desktops verwenden. Laptops oder andere kleine Systeme verwenden SO-DIMMs oder Small Outline DIMMs, die weniger Pins haben (goldfarbige Steckkanten auf der Unterseite des Moduls) und physikalisch kürzer sind als UDIMMs. Für Server sind andere Formfaktoren vorgesehen.
+
+#### DRAM (Dynamic Random Access Memory)
+
+Hier wird jedes Datenbit auf einem separaten Kondensator gespeichert. Es handelt es sich um die häufigste Art von Arbeitsspeichern.
+
+#### SDRAM (Synchronous Dynamic Random Access Memory)
+
+Synchrones DRAM ist eine getaktete DRAM-Technologie, die Daten synchron zum Speicher-Bus überträgt. Der Takt wird durch den System-Bus vorgegeben, ggf. auch durch einen separaten Taktgeber. Er ist der am häufigsten eingesetzte Speichertyp für PCs und Notebooks. Low Power SDRAM ist für mobile Geräte eine eigene Spezifikation.
+
+#### DDR-RAM (Double Data Rate)
+
+Es ist eine Art Speichertaktverdopplungstechnologie, die Daten doppelt so schnell übertragen kann wie SDRAM. Die Zahl nach DDR steht für die Generation der Technologie, mit der das Modul hergestellt wurde. Hier werden je Taktzyklus zwei Datenübertragungen durchgeführt. Auf die Entwicklung von DDR-RAM folgten später DDR2, 3 und, 4 und zuletzt DDR5. Allerdings sind die verschiedenen RAM-Generationen untereinander nicht kompatibel. So kann man DDR4-RAM nicht auf eine Hauptplatine stecken, die DDR3-RAM benötigt.
+
+### SO-DIMM DDR-Spezifikationen
+
+| **SO-DIMM**         | **DDR**            | **DDR2**                 | **DDR3**                                       | **DDR4**                                       | **DDR5**     |
+| ------------------- | ------------------ | ------------------------ | ---------------------------------------------- | ---------------------------------------------- | ------------ |
+| **Dichte**          | 512 MB, 1 GB       | 512 MB, 1 GB, 2 GB, 4 GB | 1 GB, 2 GB, 4 GB, 8 GB, 16 GB                  | 4 GB, 8 GB, 16 GB, 32 GB                       | 8–64 GB etc. |
+| **Geschwindigkeit** | 333 MT/s, 400 MT/s | 667 MT/s, 800 MT/s       | 1.066 MT/s, 1.333 MT/s, 1.600 MT/s, 1.866 MT/s | 2.133 MT/s, 2.400 MT/s, 2.666 MT/s, 3.200 MT/s | 4.800 MT/s   |
+| **Spannung**        | 2,5 V              | 1,8 V                    | 1,35 V                                         | 1,2 V                                          | 1,1 V        |
+| **Pin-Anzahl**      | 200 Pins           | 200, 240 Pins            | 204, 240 Pins                                  | 260, 288 Pins                                  | 288 Pins     |
+
+#### DDR-SDRAM
+
+DDR-SDRAM (Double Data Rate Synchronous Dynamic Random Access Memory): DDR-SDRAM stellt die Weiterentwicklung der SDRAM-Technologie dar. Verwendet wird sie hauptsächlich für Speichermodule des DIMM- und SO-DIMM-Standards als Arbeitsspeicher in PCs und Laptops.
+
+#### SSD-RAM (Solid State RAM)
+
+Es sind flash-basierte Speicher, deren Daten im Speicher auch dann gesichert bleiben, wenn die Stromzufuhr unterbrochen ist. SSD werden damit als Festplatten eingesetzt. Da bei einem RAM-Speicher Daten auf die Festplatte ausgelagert werden, ist zu prüfen, ob besser in eine RAM-Erweiterung oder in SSD-RAM investiert werden soll.
+
+#### QLC (Quad-Level-Zellen)
+
+Die neueste Technologie in der Flash-Speicherarchitektur ist QLC. QLC speichert vier Datenbits in jeder Speicherzelle. QLC bietet größere Dichten auf kleinerem Raum.
+
+#### FSB (Frontsidebus)
+
+Er befindet sich auf dem Mainboard und ist der Hauptpfad für Daten im Computer. Er verbindet Prozessor, Chipsatz, DRAM und Grafikcontroller. Der FSB wird durch seine Breite (in Bits) und seine Geschwindigkeit (in Megahertz) beschrieben.
+
+#### Latenz
+
+Es ist die Zeit, die der Speicher benötigt, um auf einen Befehl zu reagieren. Generell gilt: Je geringer die Verzögerung (Latenz), desto schneller das Gerät. Bei zunehmender Geschwindigkeit kann die höhere Gesamtgeschwindigkeit jedoch schneller sein, selbst wenn die Latenz höher ist.
+
+#### ECC (Error Correcting Code)
+
+RAM, das in gängigen Desktop-PCs und Notebooks zum Einsatz kommt, ist „unbuffered“, „unregistered“ und ohne ECC. Hingegen steckt das teurere „fully buffered, registered ECC RAM“ häufig in hochwertigen Servern und Workstations, wo es dabei hilft, Speicherfehler zu minimieren bzw. selbstständig zu korrigieren.
+
+#### Diagnose
+
+Mithilfe kostenloser Diagnosesoftware wie CPU-Z lässt sich ermitteln, welche Art von RAM im PC bisher verbaut ist und ob noch Steckplätze („Bänke“) frei sind.
+
+Certainly! Here are the answers to the "Kompetenzcheck" for section 2.4.4:
+
+### Kompetenzcheck
+
+1. **Erläutern Sie mit eigenen Worten, was man vereinfacht unter RAM, FSB, ECC, DIMM, SDRAM, MT, Latenz versteht.**
+
+   - **RAM (Random Access Memory):** Ein flüchtiger Speicher, der Daten und Programme speichert, die gerade von der CPU verwendet werden. Er ermöglicht schnellen Zugriff auf diese Daten, wird aber beim Ausschalten des Computers gelöscht.
+   - **FSB (Frontsidebus):** Der Hauptpfad für Datenübertragungen zwischen dem Prozessor, Chipsatz, Arbeitsspeicher und anderen Komponenten auf dem Mainboard. Er beeinflusst die Gesamtsystemgeschwindigkeit.
+   - **ECC (Error Correcting Code):** Eine Technologie in bestimmten Arten von RAM, die Speicherfehler erkennt und korrigiert, um die Zuverlässigkeit in kritischen Systemen wie Servern zu erhöhen.
+   - **DIMM (Dual In-Line Memory Module):** Ein Modultyp für Arbeitsspeicher, der in Desktops und Servern verwendet wird. Es enthält mehrere RAM-Chips und wird in einen Steckplatz auf dem Mainboard eingesetzt.
+   - **SDRAM (Synchronous Dynamic Random Access Memory):** Eine Art von RAM, die mit dem Systemtakt synchronisiert ist, um die Geschwindigkeit der Datenübertragung zu optimieren.
+   - **MT (Megatransfers per Second):** Eine Maßeinheit, die die Anzahl der Datenübertragungen pro Sekunde auf einem RAM-Modul beschreibt.
+   - **Latenz:** Die Verzögerungszeit, die ein Speicher benötigt, um auf einen Befehl zu reagieren. Eine geringere Latenz bedeutet schnellere Reaktionszeiten des Speichers.
+
+2. **Was ist richtig?**
+   a) **Richtig:** Die Geschwindigkeit des RAM wird in MT/s gemessen.  
+   b) **Falsch:** SO-RAM (besser bekannt als SO-DIMM) wird vor allem in Laptops, nicht in Desktops, verwendet.  
+   c) **Falsch:** DDR4 ist effizienter und verbraucht weniger Energie als DDR3.  
+   d) **Richtig:** Mit DDR3 können 32 GB erreicht werden, aber es hängt vom Mainboard ab.  
+   e) **Falsch:** DDR3 gibt es in einer Vielzahl von Kapazitäten, nicht nur in 2-GB-, 4-GB- und 8-GB-Riegeln.  
+   f) **Falsch:** SSD ist Halbleiterspeicher.  
+   g) **Richtig:** Latenz bedeutet Reaktionsgeschwindigkeit (des Speichers).
