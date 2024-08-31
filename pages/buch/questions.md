@@ -1,29 +1,29 @@
-1. **a) Ein Computer funktioniert nur mit einer Eingabeeinheit und einer Ausgabeeinheit.**  
-   **Falsch**: Ein Computer benötigt zusätzlich eine Zentraleinheit (CPU), um die Daten zu verarbeiten.
+1.  **a) Ein Computer funktioniert nur mit einer Eingabeeinheit und einer Ausgabeeinheit.**  
+    **Falsch**: Ein Computer benötigt zusätzlich eine Zentraleinheit (CPU), um die Daten zu verarbeiten.
 
-2. **b) Ein Computer funktioniert nur mit einer Eingabeeinheit und der Zentraleinheit.**  
-   **Richtig**: Ein Computer benötigt mindestens eine Eingabeeinheit und eine Zentraleinheit, um zu funktionieren.
+2.  **b) Ein Computer funktioniert nur mit einer Eingabeeinheit und der Zentraleinheit.**  
+    **Richtig**: Ein Computer benötigt mindestens eine Eingabeeinheit und eine Zentraleinheit, um zu funktionieren.
 
-3. **c) Sind nur Einheiten der Eingabe und der Verarbeitung vorhanden, ist die Verarbeitung wertlos, da beim Ausschalten der Verarbeitungseinheit die Daten gelöscht werden und es keine Ausgabe gab.**  
-   **Richtig**: Ohne eine Ausgabe nach der Verarbeitung sind die verarbeiteten Daten nicht nutzbar und würden verloren gehen.
+3.  **c) Sind nur Einheiten der Eingabe und der Verarbeitung vorhanden, ist die Verarbeitung wertlos, da beim Ausschalten der Verarbeitungseinheit die Daten gelöscht werden und es keine Ausgabe gab.**  
+    **Richtig**: Ohne eine Ausgabe nach der Verarbeitung sind die verarbeiteten Daten nicht nutzbar und würden verloren gehen.
 
-4. **d) In der Datenverarbeitung spricht man stets vom EVA-Prinzip auch vom AVE-Prinzip möglich.**  
-   **Falsch**: Es gibt nur das EVA-Prinzip (Eingabe, Verarbeitung, Ausgabe). Ein „AVE-Prinzip“ existiert nicht.
+4.  **d) In der Datenverarbeitung spricht man stets vom EVA-Prinzip auch vom AVE-Prinzip möglich.**  
+    **Falsch**: Es gibt nur das EVA-Prinzip (Eingabe, Verarbeitung, Ausgabe). Ein „AVE-Prinzip“ existiert nicht.
 
-5. **e) Die CPU ist ein Peripheriegerät.**  
-   **Falsch**: Die CPU ist die Zentraleinheit und kein Peripheriegerät. Peripheriegeräte sind zum Beispiel Drucker oder Tastaturen.
+5.  **e) Die CPU ist ein Peripheriegerät.**  
+    **Falsch**: Die CPU ist die Zentraleinheit und kein Peripheriegerät. Peripheriegeräte sind zum Beispiel Drucker oder Tastaturen.
 
-6. **f) Konfiguration bedeutet die Zusammenstellung von Komponenten.**  
-   **Richtig**: Konfiguration bezieht sich auf die Zusammensetzung und Einstellung von Komponenten und Geräten in Bezug auf eine bestimmte Anwendung.
+6.  **f) Konfiguration bedeutet die Zusammenstellung von Komponenten.**  
+    **Richtig**: Konfiguration bezieht sich auf die Zusammensetzung und Einstellung von Komponenten und Geräten in Bezug auf eine bestimmte Anwendung.
 
-7. **a) Ein Desktop-PC ist i.d.R. leistungsstärker als eine Workstation.**  
-   **Falsch**: Eine Workstation ist in der Regel leistungsstärker als ein Desktop-PC, da sie für anspruchsvollere Aufgaben konzipiert ist.
+7.  **a) Ein Desktop-PC ist i.d.R. leistungsstärker als eine Workstation.**  
+    **Falsch**: Eine Workstation ist in der Regel leistungsstärker als ein Desktop-PC, da sie für anspruchsvollere Aufgaben konzipiert ist.
 
-8. **b) Ein Thin-Client ist in einem großen Tower-Gehäuse untergebracht.**  
-   **Falsch**: Ein Thin-Client ist in der Regel klein und kompakt, oft sogar so klein, dass er hinter einem Monitor oder unter einem Schreibtisch versteckt werden kann. Er wird nicht in einem großen Tower-Gehäuse untergebracht.
+8.  **b) Ein Thin-Client ist in einem großen Tower-Gehäuse untergebracht.**  
+    **Falsch**: Ein Thin-Client ist in der Regel klein und kompakt, oft sogar so klein, dass er hinter einem Monitor oder unter einem Schreibtisch versteckt werden kann. Er wird nicht in einem großen Tower-Gehäuse untergebracht.
 
-9. **c) Bei Embedded Systems sind Computer in Anlagen und Teilen integriert.**  
-   **Richtig**: Embedded Systems sind Computersysteme, die fest in andere Geräte oder Maschinen integriert sind, um spezifische Aufgaben zu erfüllen.
+9.  **c) Bei Embedded Systems sind Computer in Anlagen und Teilen integriert.**  
+    **Richtig**: Embedded Systems sind Computersysteme, die fest in andere Geräte oder Maschinen integriert sind, um spezifische Aufgaben zu erfüllen.
 
 10. **d) IoT bedeutet Internet of Things.**  
     **Richtig**: IoT steht für „Internet of Things“, was sich auf die Vernetzung von Geräten und Systemen über das Internet bezieht.
@@ -155,96 +155,73 @@
     **Falsch**: USB-Anschlüsse gibt es bis zu höheren Spezifikationen, einschließlich USB 3.0, 3.1, 3.2 und sogar USB4. Diese bieten im Vergleich zu USB 2.0 wesentlich höhere Übertragungsgeschwindigkeiten.
 
 53. **a) Die SSD ist magnetisch, die HHD ein Flash-Speicher.**
-
-    - **Falsch:** Eine SSD ist ein Flash-Speicher, während eine HDD auf magnetischer Technologie basiert.
+    **Falsch**: Eine SSD ist ein Flash-Speicher, während eine HDD auf magnetischer Technologie basiert.
 
 54. **b) Latenzzeit und Umdrehungsgeschwindigkeit haben bei SSD keinen Einfluss auf die Datenübertragungsrate.**
-
-    - **Richtig:** Bei SSDs gibt es keine Umdrehungsgeschwindigkeit, und die Latenzzeiten sind aufgrund der Technologie deutlich geringer und haben somit keinen Einfluss auf die Datenübertragungsrate.
+    **Richtig**: Bei SSDs gibt es keine Umdrehungsgeschwindigkeit, und die Latenzzeiten sind aufgrund der Technologie deutlich geringer und haben somit keinen Einfluss auf die Datenübertragungsrate.
 
 55. **c) Es gibt PCI-Steckplätze mit einer Datenrate von theoretisch ca. 8 GByte/s.**
-
-    - **Richtig:** Die Tabelle auf Seite 161 zeigt, dass PCIe x16 der Version 3.0 eine Datenrate von 16 GByte/s erreicht, und PCIe x8 entsprechend 8 GByte/s.
+    **Richtig**: Die Tabelle auf Seite 161 zeigt, dass PCIe x16 der Version 3.0 eine Datenrate von 16 GByte/s erreicht, und PCIe x8 entsprechend 8 GByte/s.
 
 56. **d) NAND-Technologie bezieht sich auf SSD, QLC speichert jeweils 4 Bits.**
-
-    - **Richtig:** QLC (Quad-Level Cell) speichert tatsächlich 4 Bits pro Zelle.
+    **Richtig**: QLC (Quad-Level Cell) speichert tatsächlich 4 Bits pro Zelle.
 
 57. **e) NAS-Systeme sind Festplattensysteme, die als Fileserver arbeiten.**
-
-    - **Richtig:** NAS-Systeme dienen dazu, Speicherplatz in einem Netzwerk bereitzustellen, ähnlich wie ein Fileserver.
+    **Richtig**: NAS-Systeme dienen dazu, Speicherplatz in einem Netzwerk bereitzustellen, ähnlich wie ein Fileserver.
 
 58. **a) Die Standardgröße ist derzeit 19 Zoll. (Monitor)**
-
-    - **Falsch:** Die Standardgröße für Monitore liegt heutzutage eher bei 24 oder 27 Zoll, nicht bei 19 Zoll.
+    **Falsch**: Die Standardgröße für Monitore liegt heutzutage eher bei 24 oder 27 Zoll, nicht bei 19 Zoll.
 
 59. **b) Curved Monitore sind heute günstig zu kaufen.**
-
-    - **Richtig:** Curved Monitore sind mittlerweile zu erschwinglichen Preisen erhältlich, vor allem im Vergleich zu den früheren Preisen.
+    **Richtig**: Curved Monitore sind mittlerweile zu erschwinglichen Preisen erhältlich, vor allem im Vergleich zu den früheren Preisen.
 
 60. **c) Monitore mit TN-Panel sind preisgünstig mit schlechterem Blickwinkel.**
+    **Richtig**: TN-Panels sind in der Regel günstiger, bieten jedoch schlechtere Blickwinkel im Vergleich zu IPS- oder VA-Panels.
 
-    - **Richtig:** TN-Panels sind in der Regel günstiger, bieten jedoch schlechtere Blickwinkel im Vergleich zu IPS- oder VA-Panels.
-
-61. **d) Monitore mit TN-Panel sind teurer, aber besser im Bild und im Blickwinkel.**
-
-    - **Falsch:** TN-Panels sind eigentlich günstiger und haben schlechtere Blickwinkel im Vergleich zu IPS- oder VA-Panels.
+61. **d) Monitore mit IPS-Panel sind teurer, aber besser im Bild und im Blickwinkel.**
+    **Richtig**: IPS-Panels sind in der Regel teurer, bieten aber eine bessere Bildqualität und deutlich bessere Blickwinkel im Vergleich zu TN-Panels. Daher ist die Aussage korrekt.
 
 62. **e) Eine Reaktionszeit von 8 ms ist sehr gut. (Monitor)**
-
-    - **Falsch:** Eine Reaktionszeit von 8 ms ist für viele Anwendungen ausreichend, aber für Gaming und andere Anwendungen, bei denen schnelle Bildwechsel wichtig sind, sind schnellere Reaktionszeiten von 1-5 ms besser.
+    **Falsch**: Eine Reaktionszeit von 8 ms ist für viele Anwendungen ausreichend, aber für Gaming und andere Anwendungen, bei denen schnelle Bildwechsel wichtig sind, sind schnellere Reaktionszeiten von 1-5 ms besser.
 
 63. **f) Um auf Energie zu achten, ist auf die Label TCO, Energy Star und das TN-Panel zu achten.**
-
-    - **Richtig:** Um Energieeffizienz zu gewährleisten, sollte man auf entsprechende Labels wie TCO und Energy Star achten. TN-Panels sind in der Regel energieeffizienter als IPS- oder VA-Panels, was hier relevant ist.
+    **Richtig**: Um Energieeffizienz zu gewährleisten, sollte man auf entsprechende Labels wie TCO und Energy Star achten. TN-Panels sind in der Regel energieeffizienter als IPS- oder VA-Panels, was hier relevant ist.
 
 64. **a) Ein Industriebetrieb ist ein interner Kunde eines Handelsbetriebs.**
-
-    - **Falsch:** Ein Industriebetrieb ist ein externer Kunde für einen Handelsbetrieb, da es sich um verschiedene Unternehmen handelt.
+    **Falsch**: Ein Industriebetrieb ist ein externer Kunde für einen Handelsbetrieb, da es sich um verschiedene Unternehmen handelt.
 
 65. **b) „Schläferkunden“ sind aus der Kundendatei zu entfernen.**
-
-    - **Falsch:** Schläferkunden, also inaktive Kunden, sollten nicht entfernt, sondern reaktiviert oder mit gezielten Marketingmaßnahmen wieder angesprochen werden.
+    **Falsch**: Schläferkunden, also inaktive Kunden, sollten nicht entfernt, sondern reaktiviert oder mit gezielten Marketingmaßnahmen wieder angesprochen werden.
 
 66. **c) Allen Kunden sollte gleich viel Zeit gewidmet werden.**
-
-    - **Falsch:** Unterschiedliche Kunden haben unterschiedlichen Wert für das Unternehmen, daher sollte die Zeit entsprechend priorisiert werden.
+    **Falsch**: Unterschiedliche Kunden haben unterschiedlichen Wert für das Unternehmen, daher sollte die Zeit entsprechend priorisiert werden.
 
 67. **d) Der Verlust eines A-Kunden kann ein Unternehmen in wirtschaftliche Schwierigkeiten bringen.**
-
-    - **Richtig:** A-Kunden sind oft für einen Großteil des Umsatzes verantwortlich, daher kann der Verlust eines solchen Kunden gravierende Auswirkungen haben.
+    **Richtig**: A-Kunden sind oft für einen Großteil des Umsatzes verantwortlich, daher kann der Verlust eines solchen Kunden gravierende Auswirkungen haben.
 
 68. **e) Neukunden sollte man immer skeptisch begegnen.**
-
-    - **Falsch:** Neukunden sollten positiv aufgenommen werden, um eine gute Kundenbeziehung aufzubauen.
+    **Falsch**: Neukunden sollten positiv aufgenommen werden, um eine gute Kundenbeziehung aufzubauen.
 
 69. **f) In C-Kunden sollte man viel Zeit investieren, da sie i.d.R. sehr freundlich sind.**
-
-    - **Falsch:** C-Kunden sind zwar oft freundlich, aber aus wirtschaftlicher Sicht weniger relevant, daher sollte hier nicht unverhältnismäßig viel Zeit investiert werden.
+    **Falsch**: C-Kunden sind zwar oft freundlich, aber aus wirtschaftlicher Sicht weniger relevant, daher sollte hier nicht unverhältnismäßig viel Zeit investiert werden.
 
 70. **g) B-Kunden können viel Potenzial haben und werden daher besonders aufmerksam beraten.**
-
-    - **Richtig:** B-Kunden haben ein hohes Wachstumspotenzial und sollten daher gezielt betreut werden.
+    **Richtig**: B-Kunden haben ein hohes Wachstumspotenzial und sollten daher gezielt betreut werden.
 
 71. **h) ABC-Kunden sollte man unterschiedlich freundlich beraten.**
-
-    - **Falsch:** Alle Kunden sollten freundlich behandelt werden, unabhängig von ihrer Kategorisierung.
+    **Falsch**: Alle Kunden sollten freundlich behandelt werden, unabhängig von ihrer Kategorisierung.
 
 72. **a) Das Pflichtenheft kommt vom Kunden.**
-
-    - **Falsch:** Das Lastenheft kommt vom Kunden, während das Pflichtenheft vom Auftragnehmer erstellt wird.
+    **Falsch**: Das Lastenheft kommt vom Kunden, während das Pflichtenheft vom Auftragnehmer erstellt wird.
 
 73. **b) Das Lastenheft beschreibt alle Anforderungen sehr genau.**
-
-    - **Richtig:** Das Lastenheft sollte alle Anforderungen detailliert beschreiben, um eine klare Basis für die Entwicklung und Implementierung zu schaffen.
+    **Richtig**: Das Lastenheft sollte alle Anforderungen detailliert beschreiben, um eine klare Basis für die Entwicklung und Implementierung zu schaffen.
 
 74. **c) Das Lastenheft beschreibt das Was und Womit.**
-
-    - **Falsch:** Das Lastenheft beschreibt das Was (was benötigt wird), während das Pflichtenheft beschreibt, Womit (mit welchen Mitteln und Methoden) dies umgesetzt wird.
+    **Falsch**: Das Lastenheft beschreibt das Was (was benötigt wird), während das Pflichtenheft beschreibt, Womit (mit welchen Mitteln und Methoden) dies umgesetzt wird.
 
 75. **d) Das Feinkonzept gehört zum Lastenheft.**
-
-    - **Falsch:** Das Feinkonzept gehört typischerweise zum Pflichtenheft, da es die detaillierte technische Umsetzung beschreibt.
+    **Falsch**: Das Feinkonzept gehört typischerweise zum Pflichtenheft, da es die detaillierte technische Umsetzung beschreibt.
 
 76. **e) Ziele sollen möglichst „SMART“ formuliert werden.**
-    - **Richtig:** Ziele im Lasten- und Pflichtenheft sollten „SMART“ (Spezifisch, Messbar, Akzeptiert, Realistisch, Terminiert) formuliert werden, um die klare Erfüllung und Überprüfung zu gewährleisten.
+    **Richtig**: Ziele im Lasten- und Pflichtenheft sollten „SMART“ (Spezifisch, Messbar, Akzeptiert, Realistisch, Terminiert) formuliert werden, um die klare Erfüllung und Überprüfung zu gewährleisten.
