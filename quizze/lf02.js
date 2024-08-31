@@ -1,5 +1,5 @@
 export const quiz = {
-  quizTitle: "LF01 Richtig-Falsch Fragen",
+  quizTitle: "LF02 Richtig-Falsch Fragen",
   quizSynopsis: "Richtig-Falsch Fragen aus Kompetenzchecks",
   nrOfQuestions: "76",
   questions: [
