@@ -2,7 +2,7 @@ export const quiz = {
   quizTitle: "LF02 Richtig-Falsch Fragen",
   quizSynopsis:
     "Dieser Quiz enthält Fragen aus den Kompetenzchecks des Lehrbuchs. Bei jedem Versuch wählt der Quiz zufällig 20 Fragen aus einem Pool von insgesamt 76 Fragen aus. ",
-  nrOfQuestions: "20",
+  nrOfQuestions: "2",
   questions: [
     {
       question:

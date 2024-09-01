@@ -1,0 +1,3 @@
+.react-quiz-container .filter-dropdown-select {
+  height: 70px !important; /* Use !important as a last resort */
+}
