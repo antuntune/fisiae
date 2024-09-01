@@ -21,12 +21,12 @@ export const quiz = {
       question:
         "Ein Computer funktioniert nur mit einer Eingabeeinheit und der Zentraleinheit.",
       answers: ["Richtig", "Falsch"],
-      correctAnswer: "1",
+      correctAnswer: "2",
       messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
       messageForIncorrectAnswer:
         "Falsche Antwort. Bitte versuchen Sie es erneut.",
       explanation:
-        "Ein Computer benötigt mindestens eine Eingabeeinheit und eine Zentraleinheit, um zu funktionieren.",
+        "Ein Computer benötigt in der Regel eine Zentraleinheit, ein Eingabegerät und ein Ausgabegerät, um vollständig zu funktionieren.",
       point: "20",
       questionType: "text",
       answerSelectionType: "single",
@@ -976,12 +976,12 @@ export const quiz = {
     {
       question: "Das Lastenheft beschreibt alle Anforderungen sehr genau.",
       answers: ["Richtig", "Falsch"],
-      correctAnswer: "1",
+      correctAnswer: "2",
       messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
       messageForIncorrectAnswer:
         "Falsche Antwort. Bitte versuchen Sie es erneut.",
       explanation:
-        "Das Lastenheft sollte alle Anforderungen detailliert beschreiben, um eine klare Basis für die Entwicklung und Implementierung zu schaffen.",
+        "Das Lastenheft beschreibt die Anforderungen allgemein und aus der Sicht des Auftraggebers. Die genaue Spezifikation und die detaillierten Anforderungen werden im Pflichtenheft beschrieben.",
       point: "20",
       questionType: "text",
       answerSelectionType: "single",
@@ -994,7 +994,7 @@ export const quiz = {
       messageForIncorrectAnswer:
         "Falsche Antwort. Bitte versuchen Sie es erneut.",
       explanation:
-        "Das Lastenheft beschreibt das Was (was benötigt wird), während das Pflichtenheft beschreibt, Womit (mit welchen Mitteln und Methoden) dies umgesetzt wird.",
+        "Das Lastenheft beschreibt das 'Was' (was benötigt wird) und 'Wofür' (zu welchem Zweck). Das 'Womit' (wie es umgesetzt wird) wird im Pflichtenheft beschrieben.",
       point: "20",
       questionType: "text",
       answerSelectionType: "single",
