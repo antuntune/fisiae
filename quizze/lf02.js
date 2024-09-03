@@ -1,7 +1,7 @@
 export const quiz = {
   quizTitle: "LF02  Fragen",
   quizSynopsis:
-    "Dieser Quiz enthält Fragen aus den Kompetenzchecks des Lehrbuchs. Bei jedem Versuch wählt der Quiz zufällig 20 Fragen aus einem Pool von insgesamt 92 Fragen aus. ",
+    "Bei jedem Versuch wählt der Quiz zufällig 20 Fragen aus einem Pool von insgesamt 106 Fragen aus. ",
   nrOfQuestions: "20",
   questions: [
     {
@@ -1313,6 +1313,201 @@ export const quiz = {
       explanation:
         "Es handelt sich um einen Rechtsmangel, da die vereinbarte Garantieerweiterung nicht bescheinigt wurde.",
       point: "20",
+    },
+    {
+      question:
+        "Bei einem zweiseitigem Handelskauf hat man als Kunde immer eine Garantie.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Eine Garantie ist nicht immer automatisch gegeben, sie muss explizit vereinbart werden.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Bei einem einseitigem Handelskauf gilt die gesetzliche Gewährleistung.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "1", // Richtig
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Die gesetzliche Gewährleistung gilt bei einem einseitigen Handelskauf.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Wenn man bei einer Lieferung einen Mangel feststellt, kann man immer sofort sein Geld zurückverlangen.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Man hat nicht immer sofort das Recht auf Rückzahlung, erst muss eine Nacherfüllung verlangt werden.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Ein Rechtsgeschäft von einem 17jährigen ist prinzipiell schwebend unwirksam.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "1", // Richtig
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Ein Rechtsgeschäft von einem Minderjährigen ist schwebend unwirksam, bis die Eltern zustimmen.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Bei einer empfangsbedürftigen Willenserklärung muss der Empfänger die Willenserklärung auch tatsächlich persönlich erhalten haben.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Es reicht aus, dass die Willenserklärung in den Machtbereich des Empfängers gelangt.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Beim Piezo-Druckverfahren werden winzige Tintentropfen mithilfe eines Heizelements erzeugt, erhitzt und dann explosionsartig aus der Düse gepresst.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Beim Piezo-Druckverfahren wird kein Heizelement verwendet; stattdessen wird ein Kristall durch elektrische Spannung verformt, um Tinte aus der Düse zu pressen.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Der Verlust eines A-Kunden stellt für ein Unternehmen in der Regel kein Problem dar, da diese Kunden eher unbedeutend sind.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "A-Kunden sind in der Regel besonders wichtige Kunden für ein Unternehmen, daher stellt ihr Verlust meist ein großes Problem dar.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Der „Kritische Pfad“ in einem Netzplan beschreibt die Handlungsschritte, die besonders schwierig/kompliziert sind.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Der „Kritische Pfad“ beschreibt die Abfolge von Vorgängen, die keine zeitlichen Puffer haben. Er zeigt, welche Schritte am längsten dauern und den Projektabschluss bestimmen.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Das Lastenheft wird vom Auftraggeber erstellt und beschreibt ergebnisorientiert das Was und Wofür.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "1", // Richtig
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Das Lastenheft wird tatsächlich vom Auftraggeber erstellt und beschreibt, was erreicht werden soll und zu welchem Zweck.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Das Pflichtenheft wird vom Auftragnehmer erstellt und beschreibt genau und detailliert das Wie und Womit.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "1", // Richtig
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Das Pflichtenheft beschreibt detailliert, wie die Anforderungen des Lastenhefts technisch umgesetzt werden sollen, und wird vom Auftragnehmer erstellt.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question: "Das Feinkonzept gehört zum Lastenheft.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Das Feinkonzept gehört zum Pflichtenheft, nicht zum Lastenheft.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "IT-Aufrüstung, Recycling und Remarketing sind heute out, da Hardware sehr billig und der personelle Aufwand zu hoch sind.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "IT-Aufrüstung, Recycling und Remarketing sind nach wie vor relevant, da sie Ressourcen schonen und ökonomisch sinnvoll sein können.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Bei Investitionsentscheidungen zählen nur die einmaligen Anschaffungskosten.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "2", // Falsch
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Bei Investitionsentscheidungen spielen auch laufende Kosten, Abschreibungen und mögliche Erträge eine Rolle.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
+    },
+    {
+      question:
+        "Arbeitgeber sind in Deutschland zur Durchführung einer Gefährdungsbeurteilung verpflichtet, um vorhandene Gefährdungen klar zu identifizieren und entsprechende Schutzmaßnahmen zu treffen.",
+      answers: ["Richtig", "Falsch"],
+      correctAnswer: "1", // Richtig
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer:
+        "Falsche Antwort. Bitte versuchen Sie es erneut.",
+      explanation:
+        "Arbeitgeber sind gesetzlich verpflichtet, Gefährdungsbeurteilungen durchzuführen, um die Sicherheit und Gesundheit ihrer Arbeitnehmer zu gewährleisten.",
+      point: "20",
+      questionType: "text",
+      answerSelectionType: "single",
     },
   ],
 };
