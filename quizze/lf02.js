@@ -1,7 +1,7 @@
 export const quiz = {
   quizTitle: "LF02 Richtig-Falsch Fragen",
   quizSynopsis:
-    "Dieser Quiz enthält Fragen aus den Kompetenzchecks des Lehrbuchs. Bei jedem Versuch wählt der Quiz zufällig 20 Fragen aus einem Pool von insgesamt 76 Fragen aus. ",
+    "Dieser Quiz enthält Fragen aus den Kompetenzchecks des Lehrbuchs. Bei jedem Versuch wählt der Quiz zufällig 20 Fragen aus einem Pool von insgesamt 92 Fragen aus. ",
   nrOfQuestions: "20",
   questions: [
     {
@@ -1025,6 +1025,294 @@ export const quiz = {
       point: "20",
       questionType: "text",
       answerSelectionType: "single",
+    },
+    {
+      question:
+        "Lieferung eines PCs mit 4 GB RAM statt mit 16 GB RAM. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da die Spezifikation des gelieferten Produkts nicht der Bestellung entspricht.",
+      point: "20",
+    },
+    {
+      question:
+        "Lieferung eines PCs ohne Betriebssystem, obwohl bestellt. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da das bestellte Betriebssystem fehlt.",
+      point: "20",
+    },
+    {
+      question:
+        "Lieferung eines Monitors mit sehr vielen Fehlpixeln, dem Verkäufer bekannt. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da der Monitor nicht den Qualitätsanforderungen entspricht.",
+      point: "20",
+    },
+    {
+      question:
+        "Lieferung von 20 Mäusen statt wie bestellt 24 Stück. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "3", // Sachmangel: Quantität
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Quantität, da weniger Mäuse geliefert wurden als bestellt.",
+      point: "20",
+    },
+    {
+      question:
+        "Lieferung von Software ohne Bedienungsanleitung auf Deutsch, auf Englisch enthalten. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da die Bedienungsanleitung nicht in der gewünschten Sprache geliefert wurde.",
+      point: "20",
+    },
+    {
+      question:
+        "Lieferung von Druckern ohne Zubehör. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da das notwendige Zubehör für die Drucker fehlt.",
+      point: "20",
+    },
+    {
+      question:
+        "Lieferung eines PCs statt mit 4 MHz CPU mit 1,4 MHz (Ryto1 statt Ryto4). Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da die CPU des PCs langsamer ist als bestellt.",
+      point: "20",
+    },
+    {
+      question:
+        "Softwarelizenz zur betriebsweiten Nutzung bestellt, jedoch nur Lizenz mit Einzelnutzung. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "1", // Rechtsmangel
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Rechtsmangel, da die bestellte Lizenz zur betriebsweiten Nutzung nicht geliefert wurde.",
+      point: "20",
+    },
+    {
+      question:
+        "Notebook-Lieferung als Convertible bestellt, Tastaturschnittstelle Standard. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da das Notebook nicht wie bestellt als Convertible geliefert wurde.",
+      point: "20",
+    },
+    {
+      question:
+        "PC-Lieferung mit sehr lautem Lüfter, obwohl leise bestellt. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da der Lüfter des PCs lauter ist als bestellt.",
+      point: "20",
+    },
+    {
+      question:
+        "PC-Lieferung mit weniger Schnittstellen als gefordert. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da der PC weniger Schnittstellen hat als gefordert.",
+      point: "20",
+    },
+    {
+      question:
+        "PC-Lieferung nur Office-Test-Version, obwohl Dauerlizenz bestellt. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "1", // Rechtsmangel
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Rechtsmangel, da die Dauerlizenz nicht geliefert wurde.",
+      point: "20",
+    },
+    {
+      question:
+        "Drucker erhält in der Erstlieferung nur Toner für 10 Druckseiten. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "4", // Kein Mangel
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es liegt kein Mangel vor, da es sich um eine übliche Erstlieferung handelt, die häufig eine geringere Menge an Verbrauchsmaterialien enthält.",
+      point: "20",
+    },
+    {
+      question:
+        "Karton bei Lieferung beschädigt, sonst keine feststellbaren Schäden. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "4", // Kein Mangel
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es liegt kein Mangel vor, da nur der Karton beschädigt ist und keine weiteren Schäden feststellbar sind.",
+      point: "20",
+    },
+    {
+      question:
+        "Es wurde eine genau bezeichnete Grafikkarte bestellt, jedoch eine andere, bessere eingebaut. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "2", // Sachmangel: Qualität/Art
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Sachmangel bezüglich der Qualität/Art, da eine andere Grafikkarte eingebaut wurde, auch wenn sie besser ist.",
+      point: "20",
+    },
+    {
+      question:
+        "Es wurde eine Garantieerweiterung auf 48 Monate vereinbart, jedoch nur gesetzliche Gewährleistung bescheinigt. Um welche Mängelart handelt es sich hierbei?",
+      questionType: "text",
+      answerSelectionType: "single",
+      answers: [
+        "Rechtsmangel",
+        "Sachmangel: Qualität/Art",
+        "Sachmangel: Quantität",
+        "Kein Mangel",
+      ],
+      correctAnswer: "1", // Rechtsmangel
+      messageForCorrectAnswer: "Richtige Antwort. Gut gemacht.",
+      messageForIncorrectAnswer: "Falsche Antwort. Bitte versuche es erneut.",
+      explanation:
+        "Es handelt sich um einen Rechtsmangel, da die vereinbarte Garantieerweiterung nicht bescheinigt wurde.",
+      point: "20",
     },
   ],
 };
